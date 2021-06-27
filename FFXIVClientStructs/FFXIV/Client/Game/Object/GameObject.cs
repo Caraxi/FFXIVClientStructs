@@ -10,6 +10,8 @@ namespace FFXIVClientStructs.FFXIV.Client.Game.Object
     [StructLayout(LayoutKind.Explicit, Size = 0x1A0)]
     public unsafe struct GameObject
     {
+        [FieldOffset(0x00)] public void* vtbl;
+        [FieldOffset(0x00)] public void** vfunc;
         [FieldOffset(0x30)] public fixed byte Name[30];
         [FieldOffset(0x74)] public uint ObjectID;
         [FieldOffset(0x8C)] public byte ObjectKind;
