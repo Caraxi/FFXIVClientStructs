@@ -842,7 +842,6 @@ classes:
       0x1404D23C0: SetSize0
       0x1404D2400: GetYFloat
       0x1404D2440: GetYShort
-      0x1404D2610: GetWidth
       0x1404D2630: GetHeight
       0x1404D2870: SetWidth
       0x1404D2890: SetHeight
@@ -2287,2532 +2286,3530 @@ classes:
   Client::UI::Addon_Auto_Cursor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C6958
+    funcs:
+      0x140CE17E0: ctor
   Client::UI::Addon_Auto_CursorLocation:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C6B70
+    funcs:
+      0x140CE2250: ctor
   Client::UI::Addon_Auto_CursorRect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C6D88
+    funcs:
+      0x140CE2650: ctor
   Client::UI::Addon_Auto_Dialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C71D0
+    funcs:
+      0x140CE3BC0: ctor
   Client::UI::Addon_Auto_ResidentDragTarget:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C7400
+    funcs:
+      0x140CE4030: ctor
   Client::UI::Addon_Auto_ScreenFrame:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C7C90
+    funcs:
+      0x140CE4F00: ctor
   Client::UI::Addon_Auto_SelectOk:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C80D8
+    funcs:
+      0x140CE5A30: ctor
   Client::UI::Addon_Auto_ListGrid:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C8998
+    funcs:
+      0x140CE7B90: ctor
   Client::UI::Addon_Auto_ListIcon:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C8BB0
+    funcs:
+      0x140CE8410: ctor
   Client::UI::Addon_Auto_InputNumeric:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C9238
+    funcs:
+      0x140CEA8B0: ctor
   Client::UI::Addon_Auto_InputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C9450
+    funcs:
+      0x140CEAC20: ctor
   Client::UI::Addon_Auto_ListColorChooser:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C9668
-  Client::UI::Addon_Auto_SelectOkTitle:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417C9A98
+    funcs:
+      0x140CEC090: ctor
   Client::UI::Addon_Auto_SelectList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C9CD8
+    funcs:
+      0x140CEE0C0: ctor
   Client::UI::Addon_Auto_ProgressBar:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417C9EF0
+    funcs:
+      0x140CEEAE0: ctor
   Client::UI::Addon_Auto_HelpWindow:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CA108
+    funcs:
+      0x140CEF1B0: ctor
   Client::UI::Addon_Auto_MultipleHelpWindow:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CA320
+    funcs:
+      0x140CEF6D0: ctor
   Client::UI::Addon_Auto_SelectCustomString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CA750
+    funcs:
+      0x140CF2560: ctor
   Client::UI::Addon_Auto_SelectStringEventGimmick:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CA968
+    funcs:
+      0x140CF3700: ctor
   Client::UI::Addon_Auto_InputMessage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CAB80
+    funcs:
+      0x140CF4320: ctor
   Client::UI::Addon_Auto_CheckBoxDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CAD98
+    funcs:
+      0x140CF4A60: ctor
   Client::UI::Addon_Auto_CreditPlayer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CAFB0
-  Client::UI::Addon_Auto_CreditPlayer:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14201EAC8
+    funcs:
+      0x140CF4EF0: ctor
   Client::UI::Addon_Auto_CreditStaff:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CB1C8
+    funcs:
+      0x140CF67C0: ctor
   Client::UI::Addon_Auto_CreditCast:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CB3E0
+    funcs:
+      0x140CF94D0: ctor
   Client::UI::Addon_Auto_CreditEnd:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CB5F8
+    funcs:
+      0x140CF9C70: ctor
   Client::UI::Addon_Auto_CreditCast2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CB810
+    funcs:
+      0x140CFA1A0: ctor
   Client::UI::Addon_Auto_CreditStaff:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CBA28
+    funcs:
+      0x140CFA7E0: ctor
   Client::UI::Addon_Auto_SocialList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CC080
+    funcs:
+      0x140CFD790: ctor
   Client::UI::Addon_Auto_BlackList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CC298
-  Client::UI::Addon_Auto_PartyMemberList:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417CC4D0
+    funcs:
+      0x140CFFA20: ctor
   Client::UI::Addon_Auto_LetterList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CC718
+    funcs:
+      0x140D02AA0: ctor
   Client::UI::Addon_Auto_LetterViewer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CC930
+    funcs:
+      0x140D043E0: ctor
   Client::UI::Addon_Auto_LinkShell:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CCB48
+    funcs:
+      0x140D05740: ctor
   Client::UI::Addon_Auto_LetterEditor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CCD60
+    funcs:
+      0x140D07980: ctor
   Client::UI::Addon_Auto_SocialDetailA:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CD190
+    funcs:
+      0x140D0AB90: ctor
   Client::UI::Addon_Auto_SocialDetailB:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CD3A8
+    funcs:
+      0x140D0C6C0: ctor
   Client::UI::Addon_Auto_PcSearchDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CD5C0
+    funcs:
+      0x140D0D5B0: ctor
   Client::UI::Addon_Auto_ItemSearch:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CD7D8
+    funcs:
+      0x140D0F330: ctor
   Client::UI::Addon_Auto_ItemSearchFilter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CDC08
+    funcs:
+      0x140D134A0: ctor
   Client::UI::Addon_Auto_ItemSearchHistory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CDE20
+    funcs:
+      0x140D13B70: ctor
   Client::UI::Addon_Auto_ItemSearchSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CE038
-  Client::UI::Addon_Auto_LFG:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417CE468
+    funcs:
+      0x140D14170: ctor
   Client::UI::Addon_Auto_LFGDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CE680
+    funcs:
+      0x140D17060: ctor
   Client::UI::Addon_Auto_LFGCondition:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CE898
-  Client::UI::Addon_Auto_LFGSearch:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417CEAC0
+    funcs:
+      0x140D18D70: ctor
   Client::UI::Addon_Auto_LFGSelectRole:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CECE8
+    funcs:
+      0x140D1FA30: ctor
   Client::UI::Addon_Auto_AllianceMemberList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CEF00
+    funcs:
+      0x140D21120: ctor
   Client::UI::Addon_Auto_ReadyCheck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CF120
+    funcs:
+      0x140D218B0: ctor
   Client::UI::Addon_Auto_ContentsReplayReadyCheck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CF348
-  Client::UI::Addon_Auto_ContentsReplayReadyCheckAlliance:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417CF570
+    funcs:
+      0x140D222C0: ctor
   Client::UI::Addon_Auto_LetterHistory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CF7B8
+    funcs:
+      0x140D22D40: ctor
   Client::UI::Addon_Auto_LetterAddress:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CF9D0
+    funcs:
+      0x140D23870: ctor
   Client::UI::Addon_Auto_FriendGroupEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417CFBE8
-  Client::UI::Addon_Auto_BeginnerChannelJoinList:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417CFE00
+    funcs:
+      0x140D244D0: ctor
   Client::UI::Addon_Auto_BeginnerChannelKick:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0018
+    funcs:
+      0x140D25BE0: ctor
   Client::UI::Addon_Auto_BeginnerChannelInviteDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0230
+    funcs:
+      0x140D26140: ctor
   Client::UI::Addon_Auto_CountDownSettingDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0448
+    funcs:
+      0x140D26360: ctor
   Client::UI::Addon_Auto_ScreenInfo_CountDown:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0660
+    funcs:
+      0x140D267D0: ctor
   Client::UI::Addon_Auto_LFGPrivate:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0878
-  Client::UI::Addon_Auto_LFGRecruiterNameSearch:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417D0A90
+    funcs:
+      0x140D26BC0: ctor
   Client::UI::Addon_Auto_LFGFilterSettings:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0CA8
+    funcs:
+      0x140D27AD0: ctor
   Client::UI::Addon_Auto_LFGSearchLogSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D0EC0
+    funcs:
+      0x140D28040: ctor
   Client::UI::Addon_Auto_ReturnerDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D12F0
+    funcs:
+      0x140D28D90: ctor
   Client::UI::Addon_Auto_ReturnerDialogueDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1508
+    funcs:
+      0x140D28FA0: ctor
   Client::UI::Addon_Auto_ContentMemberList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1720
+    funcs:
+      0x140D29170: ctor
   Client::UI::Addon_Auto_FreeCompanyRights:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1958
+    funcs:
+      0x140D2A450: ctor
   Client::UI::Addon_Auto_FreeCompanyApplication:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1B70
+    funcs:
+      0x140D2B240: ctor
   Client::UI::Addon_Auto_FreeCompanyProfile:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1D88
+    funcs:
+      0x140D2BD00: ctor
   Client::UI::Addon_Auto_MemberRankAssign:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D1FA0
+    funcs:
+      0x140D2CDD0: ctor
   Client::UI::Addon_Auto_MemberRankEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D21B8
+    funcs:
+      0x140D2EA20: ctor
   Client::UI::Addon_Auto_MemberRankOrderEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D23D0
+    funcs:
+      0x140D307E0: ctor
   Client::UI::Addon_Auto_FreeCompanyInputMessage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D25E8
+    funcs:
+      0x140D31AB0: ctor
   Client::UI::Addon_Auto_FreeCompanyInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D2808
+    funcs:
+      0x140D31F80: ctor
   Client::UI::Addon_Auto_FreeCompanyChest:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D2A20
+    funcs:
+      0x140D32450: ctor
   Client::UI::Addon_Auto_FreeCompanyAction:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D2EA8
-  Client::UI::Addon_Auto_FreeCompanyExchange:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417D3120
+    funcs:
+      0x140D35780: ctor
   Client::UI::Addon_Auto_FreeCompanyProfileEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D3398
+    funcs:
+      0x140D37780: ctor
   Client::UI::Addon_Auto_FreeCompanyCrestEditor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D35B0
+    funcs:
+      0x140D38450: ctor
   Client::UI::Addon_Auto_FreeCompanyCrestColor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D37F0
+    funcs:
+      0x140D3AF70: ctor
   Client::UI::Addon_Auto_FreeCompanyCrestSymbolColor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D3A08
+    funcs:
+      0x140D3C040: ctor
   Client::UI::Addon_Auto_FreeCompanyCrestDecal:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D3C20
+    funcs:
+      0x140D3CD40: ctor
   Client::UI::Addon_Auto_FreeCompanyChestLog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D3E38
+    funcs:
+      0x140D3E130: ctor
   Client::UI::Addon_Auto_FreeCompanyExchange:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4050
+    funcs:
+      0x140D3E930: ctor
   Client::UI::Addon_Auto_FreeCompany:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4268
+    funcs:
+      0x140D3F7B0: ctor
   Client::UI::Addon_Auto_FreeCompanyActivity:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4480
+    funcs:
+      0x140D406D0: ctor
   Client::UI::Addon_Auto_FreeCompanyMember:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D46F0
+    funcs:
+      0x140D41240: ctor
   Client::UI::Addon_Auto_FreeCompanyRank:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4960
+    funcs:
+      0x140D44DE0: ctor
   Client::UI::Addon_Auto_FreeCompanyStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4BD0
+    funcs:
+      0x140D46120: ctor
   Client::UI::Addon_Auto_FreeCompanyTopics:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D4E40
+    funcs:
+      0x140D47B40: ctor
   Client::UI::Addon_Auto_CompanyCraftRecipe:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D50B0
+    funcs:
+      0x140D491D0: ctor
   Client::UI::Addon_Auto_ExplorationShip:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D52C8
+    funcs:
+      0x140D4BFE0: ctor
   Client::UI::Addon_Auto_ExplorationDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D54E0
-  Client::UI::Addon_Auto_ExplorationDetail:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1420242A0
+    funcs:
+      0x140D4D430: ctor
   Client::UI::Addon_Auto_ExplorationConfirm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D5728
+    funcs:
+      0x140D4EF00: ctor
   Client::UI::Addon_Auto_ExplorationReport:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D5940
+    funcs:
+      0x140D4F660: ctor
   Client::UI::Addon_Auto_CompanyCraftDelivery:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D5B98
+    funcs:
+      0x140D506A0: ctor
   Client::UI::Addon_Auto_ExplorationSubMarine:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D5DB0
+    funcs:
+      0x140D51500: ctor
   Client::UI::Addon_Auto_ExplorationChart:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D5FC8
-  Client::UI::Addon_Auto_ExplorationChart:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142024804
+    funcs:
+      0x140D52A30: ctor
   Client::UI::Addon_Auto_PvPTeam:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D61F8
+    funcs:
+      0x140D534A0: ctor
   Client::UI::Addon_Auto_FreeCompanyInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6410
+    funcs:
+      0x140D540F0: ctor
   Client::UI::Addon_Auto_PvPTeamMember:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6628
+    funcs:
+      0x140D54600: ctor
   Client::UI::Addon_Auto_PvPTeamResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6840
+    funcs:
+      0x140D554B0: ctor
   Client::UI::Addon_Auto_PvPTeamActivity:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6A58
+    funcs:
+      0x140D56300: ctor
   Client::UI::Addon_Auto_PvPTeamStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6C70
+    funcs:
+      0x140D56B00: ctor
   Client::UI::Addon_Auto_PVPTeamOrganization:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D6E88
+    funcs:
+      0x140D572A0: ctor
   Client::UI::Addon_Auto_CircleInvite:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D70A0
+    funcs:
+      0x140D578F0: ctor
   Client::UI::Addon_Auto_CircleList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D72B8
+    funcs:
+      0x140D584D0: ctor
   Client::UI::Addon_Auto_CircleInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D74D0
+    funcs:
+      0x140D59520: ctor
   Client::UI::Addon_Auto_CircleBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D7848
+    funcs:
+      0x140D5DAF0: ctor
   Client::UI::Addon_Auto_CircleBookSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D7A60
+    funcs:
+      0x140D5F190: ctor
   Client::UI::Addon_Auto_CircleQuestionnaire:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D7C78
+    funcs:
+      0x140D60780: ctor
   Client::UI::Addon_Auto_CircleBlackList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D7E90
+    funcs:
+      0x140D62070: ctor
   Client::UI::Addon_Auto_CircleBoardEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D80A8
+    funcs:
+      0x140D62AE0: ctor
   Client::UI::Addon_Auto_CircleMemberGroupEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D82C0
+    funcs:
+      0x140D634E0: ctor
   Client::UI::Addon_Auto_FreeCompanyInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D84D8
+    funcs:
+      0x140D63F50: ctor
   Client::UI::Addon_Auto_CircleFinderSearch:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D86F0
+    funcs:
+      0x140D644D0: ctor
   Client::UI::Addon_Auto_CircleFinder:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D8908
+    funcs:
+      0x140D66030: ctor
   Client::UI::Addon_Auto_CircleFinderSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D8B20
+    funcs:
+      0x140D688B0: ctor
   Client::UI::Addon_Auto_CircleFinderHighlight:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D8D38
+    funcs:
+      0x140D69970: ctor
   Client::UI::Addon_Auto_CrossWorldLinkShell:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D8F50
+    funcs:
+      0x140D6A530: ctor
   Client::UI::Addon_Auto_ConfigKeybind:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D9188
+    funcs:
+      0x140D6C040: ctor
   Client::UI::Addon_Auto_ConfigLog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D93A0
+    funcs:
+      0x140D6D6E0: ctor
   Client::UI::Addon_Auto_ConfigLogColor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D95B8
+    funcs:
+      0x140D6EE50: ctor
   Client::UI::Addon_Auto_ConfigLogFilter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D97D0
+    funcs:
+      0x140D701F0: ctor
   Client::UI::Addon_Auto_ConfigLogFilterInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D99E8
+    funcs:
+      0x140D71DB0: ctor
   Client::UI::Addon_Auto_ConfigSystem:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D9C00
+    funcs:
+      0x140D78B30: ctor
   Client::UI::Addon_Auto_ConfigPadCalibration:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417D9E18
+    funcs:
+      0x140D79D80: ctor
   Client::UI::Addon_Auto_ConfigCharacter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DA030
+    funcs:
+      0x140D79E50: ctor
   Client::UI::Addon_Auto_ConfigCharacterChatLogGeneral:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DA4B0
+    funcs:
+      0x140D7E950: ctor
   Client::UI::Addon_Auto_ConfigCharacterChatLogDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DA6F0
+    funcs:
+      0x140D80350: ctor
   Client::UI::Addon_Auto_ConfigCharacterChatLogRingTone:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DA930
+    funcs:
+      0x140D81D50: ctor
   Client::UI::Addon_Auto_ConfigCharacterOperationCharacter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DAB70
+    funcs:
+      0x140D83040: ctor
   Client::UI::Addon_Auto_ConfigCharacterOperationCircle:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DADB0
+    funcs:
+      0x140D84660: ctor
   Client::UI::Addon_Auto_ConfigCharacterOperationGeneral:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DAFF0
+    funcs:
+      0x140D86390: ctor
   Client::UI::Addon_Auto_ConfigCharacterOperationMouse:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DB230
+    funcs:
+      0x140D87D50: ctor
   Client::UI::Addon_Auto_ConfigCharacterOperationTarget:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DB470
+    funcs:
+      0x140D88F30: ctor
   Client::UI::Addon_Auto_ConfigCharacterHotBarDisplay:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DB6B0
+    funcs:
+      0x140D8BC20: ctor
   Client::UI::Addon_Auto_ConfigCharacterHotBarCommon:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DB8F0
+    funcs:
+      0x140D8CB90: ctor
   Client::UI::Addon_Auto_ConfigCharacterHotBarXHB:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DBB30
+    funcs:
+      0x140D8DDC0: ctor
   Client::UI::Addon_Auto_ConfigCharacterHotBarXHBCustom:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DBD78
+    funcs:
+      0x140D8F530: ctor
   Client::UI::Addon_Auto_ConfigCharacterNamePlateMyself:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DBFB8
+    funcs:
+      0x140D905B0: ctor
   Client::UI::Addon_Auto_ConfigCharacterNamePlateOthers:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DC1F8
+    funcs:
+      0x140D920B0: ctor
   Client::UI::Addon_Auto_ConfigCharacterNamePlateNpc:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DC438
+    funcs:
+      0x140D93FB0: ctor
   Client::UI::Addon_Auto_ConfigCharacterNamePlateGeneral:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DC678
+    funcs:
+      0x140D955F0: ctor
   Client::UI::Addon_Auto_ConfigCharacterHudGeneral:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DC8C0
+    funcs:
+      0x140D96F80: ctor
   Client::UI::Addon_Auto_ConfigCharacterHudPartyList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DCB08
+    funcs:
+      0x140D982C0: ctor
   Client::UI::Addon_Auto_ConfigCharacterHudHud:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DCD50
+    funcs:
+      0x140D99780: ctor
   Client::UI::Addon_Auto_ConfigCharacterItem:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DCF90
+    funcs:
+      0x140D9A480: ctor
   Client::UI::Addon_Auto_ConfigPadCustomize:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DD2D8
+    funcs:
+      0x140D9CA20: ctor
   Client::UI::Addon_Auto_ChatConfig:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DD708
+    funcs:
+      0x140D9E210: ctor
   Client::UI::Addon_Auto_Logo_ja:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DD920
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D04
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417DD920
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D04
+    funcs:
+      0x140D9F560: ctor
   Client::UI::Addon_Auto_Logo_ja:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DD920
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D04
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417DD920
-  Client::UI::Addon_Auto_Logo_ja:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D04
+    funcs:
+      0x140D9F560: ctor
   Client::UI::Addon_Auto_Logo_ja:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DD920
+    funcs:
+      0x140D9F560: ctor
   Client::UI::Addon_Auto_Logo_ja:
     inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D04
+    vtbl: 0x1417DD920
+    funcs:
+      0x140D9F560: ctor
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+    funcs:
+      0x140D9F560: ctor
   Client::UI::Addon_Auto_Title_LogoFT:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDB38
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C888
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C89C
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C8B0
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D64
+    funcs:
+      0x140D9FBA0: ctor
   Client::UI::Addon_Auto_Title_LogoFT:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDB38
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C888
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C89C
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C8B0
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D64
+    funcs:
+      0x140D9FBA0: ctor
   Client::UI::Addon_Auto_Title_LogoFT:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDB38
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C888
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C89C
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C8B0
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D64
+    funcs:
+      0x140D9FBA0: ctor
   Client::UI::Addon_Auto_Title_LogoFT:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDB38
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C888
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C89C
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141B0C8B0
-  Client::UI::Addon_Auto_Title_LogoFT:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142028D64
+    funcs:
+      0x140D9FBA0: ctor
   Client::UI::Addon_Auto_Title_Menu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDD50
+    funcs:
+      0x140DA01E0: ctor
   Client::UI::Addon_Auto_Title_Revision:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DDF68
+    funcs:
+      0x140DA0A00: ctor
   Client::UI::Addon_Auto_Title_Rights:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DE180
+    funcs:
+      0x140DA0B90: ctor
   Client::UI::Addon_Auto_Warning:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DE5B0
+    funcs:
+      0x140DA0FF0: ctor
   Client::UI::Addon_Auto_Title_DataCenter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DE7E0
+    funcs:
+      0x140DA1570: ctor
   Client::UI::Addon_Auto_Title_Worldmap:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DEA08
+    funcs:
+      0x140DA25C0: ctor
   Client::UI::Addon_Auto_Title_WorldmapBg:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DEC20
+    funcs:
+      0x140DA55E0: ctor
   Client::UI::Addon_Auto_Title_Worldmap:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DEE38
+    funcs:
+      0x140DA5920: ctor
   Client::UI::Addon_Auto_Title_WorldmapBg:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DF050
+    funcs:
+      0x140DA6060: ctor
   Client::UI::Addon_Auto_Title_Connect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DF288
+    funcs:
+      0x140DA6410: ctor
   Client::UI::Addon_Auto_Title_MovieSelector:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DF4A0
+    funcs:
+      0x140DA6520: ctor
   Client::UI::Addon_Auto_MovieSubtitle_Opening_Credit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DF6B8
+    funcs:
+      0x140DA69B0: ctor
   Client::UI::Addon_Auto_CharaSelect_ListMenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DFD00
+    funcs:
+      0x140DA96B0: ctor
   Client::UI::Addon_Auto_CharaSelect_Detail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417DFF18
+    funcs:
+      0x140DABC30: ctor
   Client::UI::Addon_Auto_CharaSelect_Info:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0130
+    funcs:
+      0x140DAC930: ctor
   Client::UI::Addon_Auto_CharaSelect_Warning:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0348
+    funcs:
+      0x140DACB60: ctor
   Client::UI::Addon_Auto_CharaSelect_NameInput:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0560
+    funcs:
+      0x140DACC40: ctor
   Client::UI::Addon_Auto_CharaSelect_Legacy:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0778
+    funcs:
+      0x140DAEAC0: ctor
   Client::UI::Addon_Auto_CharaSelect_Return:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0990
+    funcs:
+      0x140DAECD0: ctor
   Client::UI::Addon_Auto_CharaSelect_Remain:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0BA8
+    funcs:
+      0x140DAEF70: ctor
   Client::UI::Addon_Auto_ConfigBackUpSystemMainmenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0DC0
+    funcs:
+      0x140DAF210: ctor
   Client::UI::Addon_Auto_ConfigBackUpSystemLoad:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E0FD8
+    funcs:
+      0x140DB0380: ctor
   Client::UI::Addon_Auto_ConfigBackUpSystemRestore:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E11F0
+    funcs:
+      0x140DB1630: ctor
   Client::UI::Addon_Auto_ConfigBackUpCharacterMainmenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1408
+    funcs:
+      0x140DB2220: ctor
   Client::UI::Addon_Auto_ConfigBackUpCharacterLoad:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1620
+    funcs:
+      0x140DB3720: ctor
   Client::UI::Addon_Auto_ConfigBackUpCharacterDownloadSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1838
+    funcs:
+      0x140DB4AC0: ctor
   Client::UI::Addon_Auto_ConfigBackUpCharacterRestore:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1A50
+    funcs:
+      0x140DB54E0: ctor
   Client::UI::Addon_Auto_CharaSelect_Shadow:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1C68
+    funcs:
+      0x140DB60D0: ctor
   Client::UI::Addon_Auto_CharaSelect_Title:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E1E80
+    funcs:
+      0x140DB6380: ctor
   Client::UI::Addon_Auto_CharaMake_CharName:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E22B8
+    funcs:
+      0x140DB6620: ctor
   Client::UI::Addon_Auto_CharaSelect_WKT_Progress:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E24D8
+    funcs:
+      0x140DB8BF0: ctor
   Client::UI::Addon_Auto_CharaSelect_WKT_YesNo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E26F0
+    funcs:
+      0x140DB8D40: ctor
   Client::UI::Addon_Auto_CharaSelect_WKT_Info:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E2908
+    funcs:
+      0x140DB9030: ctor
   Client::UI::Addon_Auto_CharaMake_Progress:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E2D38
+    funcs:
+      0x140DBA0B0: ctor
   Client::UI::Addon_Auto_CharaMake_ProgressSub:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E2F50
+    funcs:
+      0x140DBCEE0: ctor
   Client::UI::Addon_Auto_CharaMake_ProgressSub:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3170
+    funcs:
+      0x140DBE860: ctor
   Client::UI::Addon_Auto_CharaMake_Feature:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3408
+    funcs:
+      0x140DBF6D0: ctor
   Client::UI::Addon_Auto_CharaMake_ClassSelector:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3648
-  Client::UI::Addon_Auto_CharaMake_ClassSelector:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E3868
+    funcs:
+      0x140DC1690: ctor
   Client::UI::Addon_Auto_CharaMake_BirthDay:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3A88
+    funcs:
+      0x140DC2F10: ctor
   Client::UI::Addon_Auto_CharaMake_Guardian:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3CA8
+    funcs:
+      0x140DC4060: ctor
   Client::UI::Addon_Auto_CharaMake_WorldServer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E3EC8
+    funcs:
+      0x140DC4810: ctor
   Client::UI::Addon_Auto_CharaMake_Help:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E40E8
+    funcs:
+      0x140DC6850: ctor
   Client::UI::Addon_Auto_CharaMake_BgSelector:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4300
+    funcs:
+      0x140DC6E40: ctor
   Client::UI::Addon_Auto_CharaMake_Pose:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4518
+    funcs:
+      0x140DC7B60: ctor
   Client::UI::Addon_Auto_CharaMake_City:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4730
+    funcs:
+      0x140DC8750: ctor
   Client::UI::Addon_Auto_CharaMake_Return:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4948
+    funcs:
+      0x140DC8B40: ctor
   Client::UI::Addon_Auto_CharaMake_Notice:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4B60
+    funcs:
+      0x140DC8F70: ctor
   Client::UI::Addon_Auto_CharaMake_Title:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4D78
+    funcs:
+      0x140DC9110: ctor
   Client::UI::Addon_Auto_CharaMake_Shadow:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E4F90
+    funcs:
+      0x140DC93B0: ctor
   Client::UI::Addon_Auto_CharaMake_SelectYesNo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E53C0
+    funcs:
+      0x140DC49F0: ctor
   Client::UI::Addon_Auto_CharaMake_DataImport:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E6398
-  Client::UI::Addon_Auto_CharaMake_DataExport:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E65B8
+    funcs:
+      0x140DCB6F0: ctor
   Client::UI::Addon_Auto_CharaMake_DataInputString:
-    inherits_from: Component::GUI::AtkUnitBase
+    inherits_from: Client::System::String::Utf8String
     vtbl: 0x1417E67D8
+    funcs:
+      0x140DCE6C0: ctor
   Client::UI::Addon_Auto_CharaMake_DataImportDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E69F0
+    funcs:
+      0x140DCFA00: ctor
   Client::UI::Addon_Auto_CharaMake_DataImportDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E6C08
+    funcs:
+      0x140DCFD50: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E7258
+    funcs:
+      0x140DD04B0: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option3:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E7478
+    funcs:
+      0x140DD07E0: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option4:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E7698
+    funcs:
+      0x140DD0B30: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option5:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E78B8
+    funcs:
+      0x140DD0E80: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option6:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E7AD8
+    funcs:
+      0x140DD11E0: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Option12:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E7CF8
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_FacePaint:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E8140
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_FaceType:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E8368
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Hair:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E8590
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Hair:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E87B8
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Tail:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E89E0
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Feature:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E8C08
-  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Tatoo:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E8E38
-  Client::UI::Addon_Auto_CharaMake_Feature_Color_L:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141681BA8
-  Client::UI::Addon_Auto_CharaMake_Feature_Color_FacePaint:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E9298
-  Client::UI::Addon_Auto_CharaMake_Feature_Color_Lip:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E94C8
-  Client::UI::Addon_Auto_CharaMake_Feature_Color_Hair:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E9940
-  Client::UI::Addon_Auto_CharaMake_Feature_Color_Eye:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417E9B88
+    funcs:
+      0x140DD1550: ctor
   Client::UI::Addon_Auto_CharaMake_Feature_Slider:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E9DD0
+    funcs:
+      0x140DD8290: ctor
   Client::UI::Addon_Auto_TitleLicenseViewer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417E9FE8
+    funcs:
+      0x140DD9010: ctor
   Client::UI::Addon_Auto_SupportDesk:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EA200
+    funcs:
+      0x140DDA470: ctor
   Client::UI::Addon_Auto_SupportDeskList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EA428
+    funcs:
+      0x140DDB850: ctor
   Client::UI::Addon_Auto_SupportDeskEditor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EA640
+    funcs:
+      0x140DDBFE0: ctor
   Client::UI::Addon_Auto_SupportDeskViewer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EA858
+    funcs:
+      0x140DDD390: ctor
   Client::UI::Addon_Auto_WebLink:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EAA70
+    funcs:
+      0x140DDE470: ctor
   Client::UI::Addon_Auto_WebLauncher:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EAC88
+    funcs:
+      0x140DDEF70: ctor
   Client::UI::Addon_Auto_WebGuidance:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417EAEA0
+    funcs:
+      0x140DDF420: ctor
   Client::UI::Addon_Auto_Journal:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F1C78
+    funcs:
+      0x140DF0470: ctor
   Client::UI::Addon_Auto_JournalAccept:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F20A8
+    funcs:
+      0x140DF6030: ctor
   Client::UI::Addon_Auto_ContentsFinderMenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F24D8
+    funcs:
+      0x140DF71F0: ctor
   Client::UI::Addon_Auto_GuildLeveDifficulty:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F2B98
+    funcs:
+      0x140DFB600: ctor
   Client::UI::Addon_Auto_PVPColosseumResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F2DB0
+    funcs:
+      0x140DFBBB0: ctor
   Client::UI::Addon_Auto_PVPFrontlineResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F2FC8
+    funcs:
+      0x140DFDBA0: ctor
   Client::UI::Addon_Auto_PVPFrontlineResultDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F31E0
+    funcs:
+      0x140E00510: ctor
   Client::UI::Addon_Auto_PVPSimulationResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F33F8
+    funcs:
+      0x140E00920: ctor
   Client::UI::Addon_Auto_PVPSimulationHeader:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F3610
+    funcs:
+      0x140E026E0: ctor
   Client::UI::Addon_Auto_PVPSimulationDisplay:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F3828
+    funcs:
+      0x140E02E30: ctor
   Client::UI::Addon_Auto_PVPSimulationAlliance:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F3A40
+    funcs:
+      0x140E03BD0: ctor
   Client::UI::Addon_Auto_PVPSimulationMachineSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F3C58
+    funcs:
+      0x140E04EB0: ctor
   Client::UI::Addon_Auto_PVPSimulationHeader2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F3E70
+    funcs:
+      0x140E05710: ctor
   Client::UI::Addon_Auto_PVPSimulationDisplay2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F4088
+    funcs:
+      0x140E06210: ctor
   Client::UI::Addon_Auto_PVPScreenInformationHotBar:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F42A0
+    funcs:
+      0x140E064B0: ctor
   Client::UI::Addon_Auto_Inventory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F4968
+    funcs:
+      0x140E072C0: ctor
   Client::UI::Addon_Auto_InventoryGrid:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F4BC0
+    funcs:
+      0x140E08770: ctor
   Client::UI::Addon_Auto_InventoryGridCrystal:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F4DD8
+    funcs:
+      0x140E09760: ctor
   Client::UI::Addon_Auto_InventoryLarge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F4FF0
+    funcs:
+      0x140E0A3F0: ctor
   Client::UI::Addon_Auto_InventoryGrid:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5248
+    funcs:
+      0x140E0A8F0: ctor
   Client::UI::Addon_Auto_InventoryEvent:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5460
+    funcs:
+      0x140E0D480: ctor
   Client::UI::Addon_Auto_InventoryExpansion:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F56B8
+    funcs:
+      0x140E0EB40: ctor
   Client::UI::Addon_Auto_RetainerSell:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5910
+    funcs:
+      0x140E10690: ctor
   Client::UI::Addon_Auto_RetainerSellList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5B28
+    funcs:
+      0x140E111D0: ctor
   Client::UI::Addon_Auto_RetainerHistory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5D40
+    funcs:
+      0x140E12300: ctor
   Client::UI::Addon_Auto_RetainerInventory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F5F58
+    funcs:
+      0x140E12BB0: ctor
   Client::UI::Addon_Auto_RetainerInventoryGrid:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F61B0
+    funcs:
+      0x140E14030: ctor
   Client::UI::Addon_Auto_RetainerInventoryGridCrystal:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F63C8
+    funcs:
+      0x140E15080: ctor
   Client::UI::Addon_Auto_RetainerInventoryLarge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F65E0
+    funcs:
+      0x140E15E00: ctor
   Client::UI::Addon_Auto_Character:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F6838
+    funcs:
+      0x140E17E10: ctor
   Client::UI::Addon_Auto_CharacterStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F6A50
+    funcs:
+      0x140E1B2E0: ctor
   Client::UI::Addon_Auto_RetainerCharacter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F6C68
+    funcs:
+      0x140E1C0D0: ctor
   Client::UI::Addon_Auto_RetainerList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F74C8
+    funcs:
+      0x140E1FB70: ctor
   Client::UI::Addon_Auto_RetainerSort:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F76E0
+    funcs:
+      0x140E20670: ctor
   Client::UI::Addon_Auto_MonsterNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F7918
+    funcs:
+      0x140E20E20: ctor
   Client::UI::Addon_Auto_GatheringNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F7B70
+    funcs:
+      0x140E23690: ctor
   Client::UI::Addon_Auto_RecipeNoteBookFilterSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F7FC0
+    funcs:
+      0x140E2FD50: ctor
   Client::UI::Addon_Auto_RecipeTree:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F81D8
+    funcs:
+      0x140E30040: ctor
   Client::UI::Addon_Auto_RecipeMaterialList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8410
+    funcs:
+      0x140E332A0: ctor
   Client::UI::Addon_Auto_FishingNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8660
+    funcs:
+      0x140E35A80: ctor
   Client::UI::Addon_Auto_FishGuide:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8890
+    funcs:
+      0x140E38D10: ctor
   Client::UI::Addon_Auto_FishRecords:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8AA8
+    funcs:
+      0x140E3A580: ctor
   Client::UI::Addon_Auto_ContentsNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8CE0
+    funcs:
+      0x140E3B1F0: ctor
   Client::UI::Addon_Auto_RelicNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F8EF8
+    funcs:
+      0x140E3C810: ctor
   Client::UI::Addon_Auto_AdventureNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F9110
+    funcs:
+      0x140E3E050: ctor
   Client::UI::Addon_Auto_ArmouryNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F9328
-  Client::UI::Addon_Auto_MinionNoteBook:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417F97F0
-  Client::UI::Addon_Auto_MountNoteBook:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1417F9AA0
+    funcs:
+      0x140E3F610: ctor
   Client::UI::Addon_Auto_MinionNotebookYKW:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417F9D50
+    funcs:
+      0x140E48C00: ctor
   Client::UI::Addon_Auto_AozNoteBookFilterSettings:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FA4C0
+    funcs:
+      0x140E4F350: ctor
   Client::UI::Addon_Auto_AozActiveSetInputString:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FA6D8
+    funcs:
+      0x140E500A0: ctor
   Client::UI::Addon_Auto_OrnamentNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FA8F0
+    funcs:
+      0x140E50960: ctor
   Client::UI::Addon_Auto_ContentsFinderSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FAD98
+    funcs:
+      0x140E55740: ctor
   Client::UI::Addon_Auto_ContentsFinderStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FB1E0
+    funcs:
+      0x140E57750: ctor
   Client::UI::Addon_Auto_ContentsFinderConfirm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FB3F8
+    funcs:
+      0x140E57FA0: ctor
   Client::UI::Addon_Auto_ContentsFinderReady:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FB610
+    funcs:
+      0x140E58B10: ctor
   Client::UI::Addon_Auto_ContentsFinderSupply:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FB828
+    funcs:
+      0x140E58F10: ctor
   Client::UI::Addon_Auto_RaidFinderHelp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FBC98
+    funcs:
+      0x140E5C4A0: ctor
   Client::UI::Addon_Auto_Materialize:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FBEB0
+    funcs:
+      0x140E5C8B0: ctor
   Client::UI::Addon_Auto_MateriaRetrieveDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FC930
-  Client::UI::Addon_Auto_MateriaRetrieveDialog:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142035928
+    funcs:
+      0x140E60AA0: ctor
   Client::UI::Addon_Auto_MateriaParameter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FCB50
+    funcs:
+      0x140E611E0: ctor
   Client::UI::Addon_Auto_MiragePrism:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FCD88
+    funcs:
+      0x140E61400: ctor
   Client::UI::Addon_Auto_MiragePrismExecute:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FCFA0
+    funcs:
+      0x140E624B0: ctor
   Client::UI::Addon_Auto_MiragePrismExecute:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FD1B8
+    funcs:
+      0x140E62A20: ctor
   Client::UI::Addon_Auto_MiragePrismRemove:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FD3D0
+    funcs:
+      0x140E62D60: ctor
   Client::UI::Addon_Auto_MiragePrismBox:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FD5E8
+    funcs:
+      0x140E62F20: ctor
   Client::UI::Addon_Auto_MiragePrismCrystalize:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FD8F8
+    funcs:
+      0x140E65850: ctor
   Client::UI::Addon_Auto_MiragePrismBoxItemDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FDB28
+    funcs:
+      0x140E662F0: ctor
   Client::UI::Addon_Auto_MiragePrismPlateDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FDFA0
+    funcs:
+      0x140E699B0: ctor
   Client::UI::Addon_Auto_SatisfactionSupplyChangeMiragePrism:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FE1B8
+    funcs:
+      0x140E6A1E0: ctor
   Client::UI::Addon_Auto_SatisfactionSupplyMiragePrism:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FE3D0
+    funcs:
+      0x140E6AEC0: ctor
   Client::UI::Addon_Auto_Mobhunt4:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FE808
+    funcs:
+      0x140E6BCB0: ctor
   Client::UI::Addon_Auto_Mobhunt3:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FEA38
+    funcs:
+      0x140E6C180: ctor
   Client::UI::Addon_Auto_Mobhunt2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FEC68
+    funcs:
+      0x140E6C650: ctor
   Client::UI::Addon_Auto_Mobhunt:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FEE98
+    funcs:
+      0x140E6CB20: ctor
   Client::UI::Addon_Auto_ColorantEquipmentSelector:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FF0C8
+    funcs:
+      0x140E6D0A0: ctor
   Client::UI::Addon_Auto_ColorantColoringSelector:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FF2E0
+    funcs:
+      0x140E6DCF0: ctor
   Client::UI::Addon_Auto_GrandCompanyExchange:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FF4F8
+    funcs:
+      0x140E6FED0: ctor
   Client::UI::Addon_Auto_GrandCompanyRank:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FF760
+    funcs:
+      0x140E71990: ctor
   Client::UI::Addon_Auto_GrandCompanyRankUp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FF988
+    funcs:
+      0x140E72140: ctor
   Client::UI::Addon_Auto_GrandCompanySupplyList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1417FFBA0
-  Client::UI::Addon_Auto_Negotiation:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141800210
-  Client::UI::Addon_Auto_Puzzle:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141800448
-  Client::UI::Addon_Auto_Concentration:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141800680
-  Client::UI::Addon_Auto_Jigsaw:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141800B60
-  Client::UI::Addon_Auto_JigsawEvent:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141800E80
-  Client::UI::Addon_Auto_RoadStone:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141801380
-  Client::UI::Addon_Auto_RoadStone:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142037C74
+    funcs:
+      0x140E72550: ctor
   Client::UI::Addon_Auto_RoadStoneResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418015B8
-  Client::UI::Addon_Auto_MiniDungeon:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418017D0
+    funcs:
+      0x140E87860: ctor
   Client::UI::Addon_Auto_MiniDungeonAnswer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141801A08
+    funcs:
+      0x140E8ACC0: ctor
   Client::UI::Addon_Auto_MiniDungeonResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141801C20
+    funcs:
+      0x140E8B3A0: ctor
   Client::UI::Addon_Auto_RhythmAction:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141801EF8
+    funcs:
+      0x140E8B500: ctor
   Client::UI::Addon_Auto_RhythmActionResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802110
+    funcs:
+      0x140E8C5F0: ctor
   Client::UI::Addon_Auto_RhythmActionStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802328
+    funcs:
+      0x140E8CAE0: ctor
   Client::UI::Addon_Auto_Shop:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802540
+    funcs:
+      0x140E8D180: ctor
   Client::UI::Addon_Auto_ShopExchangeItem:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802778
+    funcs:
+      0x140E8EE90: ctor
   Client::UI::Addon_Auto_ShopExchangeCurrency:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802990
+    funcs:
+      0x140E91080: ctor
   Client::UI::Addon_Auto_ShopExchangeCurrencyDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802BA8
+    funcs:
+      0x140E925A0: ctor
   Client::UI::Addon_Auto_ShopExchangeItemDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802DC0
+    funcs:
+      0x140E92C90: ctor
   Client::UI::Addon_Auto_FreeShop:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141802FD8
+    funcs:
+      0x140E93A10: ctor
   Client::UI::Addon_Auto_TalkSubtitle:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418031F0
-  Client::UI::Addon_Auto_TalkSpeed:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141803620
+    funcs:
+      0x140E944A0: ctor
   Client::UI::Addon_Auto_EventSkip:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141803838
+    funcs:
+      0x140E97750: ctor
   Client::UI::Addon_Auto_HowTo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141803A50
+    funcs:
+      0x140E97970: ctor
   Client::UI::Addon_Auto_HowToNotice:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141803C68
+    funcs:
+      0x140E98800: ctor
   Client::UI::Addon_Auto_JobHudNotice:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141803E80
+    funcs:
+      0x140E98C60: ctor
   Client::UI::Addon_Auto_Macro:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141804550
+    funcs:
+      0x140EA4440: ctor
   Client::UI::Addon_Auto_MacroTextCommandList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141804768
+    funcs:
+      0x140EA7390: ctor
   Client::UI::Addon_Auto_ItemDetailCompare:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418052C0
+    funcs:
+      0x140EAC2F0: ctor
   Client::UI::Addon_Auto_ItemFinder:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418054F8
+    funcs:
+      0x140EAE9A0: ctor
   Client::UI::Addon_Auto_CharacterProfile:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141805710
+    funcs:
+      0x140EAF300: ctor
   Client::UI::Addon_Auto_CharacterClass:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141805928
+    funcs:
+      0x140EAFBF0: ctor
   Client::UI::Addon_Auto_CharacterRepute:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141805B40
+    funcs:
+      0x140EB0CB0: ctor
   Client::UI::Addon_Auto_CharacterSalvage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141805D58
+    funcs:
+      0x140EB1860: ctor
   Client::UI::Addon_Auto_CharacterTitle:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141805F70
+    funcs:
+      0x140EB1D40: ctor
   Client::UI::Addon_Auto_CharacterInspect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141806188
+    funcs:
+      0x140EB2940: ctor
   Client::UI::Addon_Auto_Currency:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418063A0
+    funcs:
+      0x140EB3C30: ctor
   Client::UI::Addon_Auto_PvpActionJob:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141806E88
+    funcs:
+      0x140EBB7C0: ctor
   Client::UI::Addon_Auto_PvpColosseum:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418070C0
+    funcs:
+      0x140EBD080: ctor
   Client::UI::Addon_Auto_PvpFrontLine:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418072F8
+    funcs:
+      0x140EBF250: ctor
   Client::UI::Addon_Auto_PvpActionAdditional:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807510
+    funcs:
+      0x140EBFA10: ctor
   Client::UI::Addon_Auto_PvpActionTraits:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807728
+    funcs:
+      0x140EC0FA0: ctor
   Client::UI::Addon_Auto_PvpActionQuickChat:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807940
+    funcs:
+      0x140EBB300: ctor
   Client::UI::Addon_Auto_PvpSimulation:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807B78
+    funcs:
+      0x140EC2BC0: ctor
   Client::UI::Addon_Auto_PVPPresetView:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807D90
+    funcs:
+      0x140EC33C0: ctor
   Client::UI::Addon_Auto_PVPCalendar:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141807FA8
+    funcs:
+      0x140EC3A50: ctor
   Client::UI::Addon_Auto_PvPCharacter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418081C0
+    funcs:
+      0x140EC44C0: ctor
   Client::UI::Addon_Auto_VoteMvp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418083D8
+    funcs:
+      0x140EC6BF0: ctor
   Client::UI::Addon_Auto_VoteKick:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418085F0
+    funcs:
+      0x140EC72E0: ctor
   Client::UI::Addon_Auto_VoteKickDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141808808
+    funcs:
+      0x140EC7740: ctor
   Client::UI::Addon_Auto_VoteTreasure:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141808A20
+    funcs:
+      0x140EC7B00: ctor
   Client::UI::Addon_Auto_GearSetList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141808C38
+    funcs:
+      0x140EC7ED0: ctor
   Client::UI::Addon_Auto_GearSetView:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141808E50
+    funcs:
+      0x140EC9880: ctor
   Client::UI::Addon_Auto_GearSetRegistered:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809068
+    funcs:
+      0x140ECA370: ctor
   Client::UI::Addon_Auto_GearSetPreview:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809280
+    funcs:
+      0x140ECADD0: ctor
   Client::UI::Addon_Auto_Salvage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809498
+    funcs:
+      0x140ECB620: ctor
   Client::UI::Addon_Auto_SalvageAuto:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418096B0
+    funcs:
+      0x140ECBFC0: ctor
   Client::UI::Addon_Auto_SalvageResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809AE0
+    funcs:
+      0x140ECCEF0: ctor
   Client::UI::Addon_Auto_Purify:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809CF8
+    funcs:
+      0x140ECD3E0: ctor
   Client::UI::Addon_Auto_PurifyDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141809F10
+    funcs:
+      0x140ECDAE0: ctor
   Client::UI::Addon_Auto_PurifyResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180A128
+    funcs:
+      0x140ECE2D0: ctor
   Client::UI::Addon_Auto_Buddy:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180A340
+    funcs:
+      0x140ECE790: ctor
   Client::UI::Addon_Auto_ActionMenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180A558
+    funcs:
+      0x140ECFC10: ctor
   Client::UI::Addon_Auto_BuddyAction:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180A770
+    funcs:
+      0x140ECF880: ctor
   Client::UI::Addon_Auto_BuddyAppearance:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180A988
+    funcs:
+      0x140ED45A0: ctor
   Client::UI::Addon_Auto_BuddySkill:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180ABA0
+    funcs:
+      0x140ED4DB0: ctor
   Client::UI::Addon_Auto_BuddyEquipList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180ADB8
+    funcs:
+      0x140ED5A40: ctor
   Client::UI::Addon_Auto_TutorialContents:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180AFD0
+    funcs:
+      0x140ED6220: ctor
   Client::UI::Addon_Auto_Synthesis:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180BF58
+    funcs:
+      0x140EE64D0: ctor
   Client::UI::Addon_Auto_SynthesisSimple:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180C170
+    funcs:
+      0x140EE7CC0: ctor
   Client::UI::Addon_Auto_SynthesisSimpleDialog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180C388
+    funcs:
+      0x140EE8370: ctor
   Client::UI::Addon_Auto_FateProgress:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180C9D0
+    funcs:
+      0x140EEE4B0: ctor
   Client::UI::Addon_Auto_FateReward:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180CBE8
+    funcs:
+      0x140EEF340: ctor
   Client::UI::Addon_Auto_Repair:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180CE00
+    funcs:
+      0x140EEFE00: ctor
   Client::UI::Addon_Auto_NeedGreedTargeting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180D250
+    funcs:
+      0x140EF43C0: ctor
   Client::UI::Addon_Auto_NeedGreed:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180D468
+    funcs:
+      0x140EF4BC0: ctor
   Client::UI::Addon_Auto_ArmouryBoard:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180D680
+    funcs:
+      0x140EF62F0: ctor
   Client::UI::Addon_Auto_Achievement:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180D8B8
+    funcs:
+      0x140EF8D30: ctor
   Client::UI::Addon_Auto_AchievementInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180DAD0
+    funcs:
+      0x140EFCAD0: ctor
   Client::UI::Addon_Auto_AchievementSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180DCE8
+    funcs:
+      0x140EFD330: ctor
   Client::UI::Addon_Auto_HowToList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180DF20
+    funcs:
+      0x140EFD6F0: ctor
   Client::UI::Addon_Auto_CabinetStore:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180E138
+    funcs:
+      0x140EFE850: ctor
   Client::UI::Addon_Auto_CabinetWithdraw:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180E350
+    funcs:
+      0x140EFF3F0: ctor
   Client::UI::Addon_Auto_LegacyItemStorage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180E568
+    funcs:
+      0x140F00930: ctor
   Client::UI::Addon_Auto_Trade:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180E780
+    funcs:
+      0x140F01270: ctor
   Client::UI::Addon_Auto_ActionCrossEditor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180E998
+    funcs:
+      0x140F02D60: ctor
   Client::UI::Addon_Auto_ContentsInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180EBB0
+    funcs:
+      0x140F03160: ctor
   Client::UI::Addon_Auto_ContentsInfoDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180EDC8
+    funcs:
+      0x140F044B0: ctor
   Client::UI::Addon_Auto_PadMouseMode:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180F208
+    funcs:
+      0x140F06880: ctor
   Client::UI::Addon_Auto_BeastTribeSupplyList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180F420
+    funcs:
+      0x140F06A20: ctor
   Client::UI::Addon_Auto_Bank:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180F638
+    funcs:
+      0x140F07BC0: ctor
   Client::UI::Addon_Auto_BuddyInspect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180F850
+    funcs:
+      0x140F08690: ctor
   Client::UI::Addon_Auto_RecommendList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180FA68
+    funcs:
+      0x140F08EE0: ctor
   Client::UI::Addon_Auto_TextFishingNote:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180FC80
+    funcs:
+      0x140F09E50: ctor
   Client::UI::Addon_Auto_CutScene:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14180FEB8
+    funcs:
+      0x140F0A5B0: ctor
   Client::UI::Addon_Auto_CutSceneDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418100D0
+    funcs:
+      0x140F0BE10: ctor
   Client::UI::Addon_Auto_TreasureMap:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418102E8
+    funcs:
+      0x140F0CFA0: ctor
   Client::UI::Addon_Auto_Emote:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810520
+    funcs:
+      0x140F0D570: ctor
   Client::UI::Addon_Auto_EmoteStatusHelp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810738
+    funcs:
+      0x140F11B40: ctor
   Client::UI::Addon_Auto_FittingRoom:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810950
+    funcs:
+      0x140F11C60: ctor
   Client::UI::Addon_Auto_TradeMultiple:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810BA0
+    funcs:
+      0x140F12B00: ctor
   Client::UI::Addon_Auto_RelicMagicite:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810DB8
+    funcs:
+      0x140F13920: ctor
   Client::UI::Addon_Auto_RelicGlass:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141810FD0
+    funcs:
+      0x140F13FE0: ctor
   Client::UI::Addon_Auto_RelicSphereScroll:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418111E8
+    funcs:
+      0x140F14830: ctor
   Client::UI::Addon_Auto_RelicSphereUpgrade:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141811400
+    funcs:
+      0x140F15BB0: ctor
   Client::UI::Addon_Auto_TeleportHousingFriend:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141811850
+    funcs:
+      0x140F17B40: ctor
   Client::UI::Addon_Auto_WeatherReport:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141811A88
+    funcs:
+      0x140F18010: ctor
   Client::UI::Addon_Auto_Wedding:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141811CA0
+    funcs:
+      0x140F199E0: ctor
   Client::UI::Addon_Auto_WeddingNotification:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141811EC8
+    funcs:
+      0x140F1B3D0: ctor
   Client::UI::Addon_Auto_Tips:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418120E0
+    funcs:
+      0x140F1B8F0: ctor
   Client::UI::Addon_Auto_FlyingPermission:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418122F8
+    funcs:
+      0x140F1BF50: ctor
   Client::UI::Addon_Auto_SubCommandSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812510
+    funcs:
+      0x140F1CD20: ctor
   Client::UI::Addon_Auto_CharacterBestEquipment:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812728
+    funcs:
+      0x140F1E710: ctor
   Client::UI::Addon_Auto_Relic2GrowthFragment:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812940
+    funcs:
+      0x140F1F2C0: ctor
   Client::UI::Addon_Auto_Relic2Growth:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812B58
+    funcs:
+      0x140F206B0: ctor
   Client::UI::Addon_Auto_Relic2Glass:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812D70
+    funcs:
+      0x140F22860: ctor
   Client::UI::Addon_Auto_QteStreak:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141812F88
+    funcs:
+      0x140F23210: ctor
   Client::UI::Addon_Auto_QteScreenInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418131A0
+    funcs:
+      0x140F23C70: ctor
   Client::UI::Addon_Auto_QteButton:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141813608
+    funcs:
+      0x140F23D50: ctor
   Client::UI::Addon_Auto_QteButtonMashing:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141813858
+    funcs:
+      0x140F24800: ctor
   Client::UI::Addon_Auto_QteButtonKeep:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141813AA8
-  Client::UI::Addon_Auto_QteButtonKeep:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141813D00
+    funcs:
+      0x140F25340: ctor
   Client::UI::Addon_Auto_PicturePreview:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141813F70
+    funcs:
+      0x140F26700: ctor
   Client::UI::Addon_Auto_SatisfactionSupply:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141814188
+    funcs:
+      0x140F26BF0: ctor
   Client::UI::Addon_Auto_SatisfactionSupplyResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418143A0
+    funcs:
+      0x140F28A80: ctor
   Client::UI::Addon_Auto_Mount_speed:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418145D8
+    funcs:
+      0x140F28FA0: ctor
   Client::UI::Addon_Auto_FishHarpoonTip:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418147F0
+    funcs:
+      0x140F29DC0: ctor
   Client::UI::Addon_Auto_PVPWelcomeDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141814A08
+    funcs:
+      0x140F2A270: ctor
   Client::UI::Addon_Auto_TreasureChallenge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141814C20
+    funcs:
+      0x140F2A650: ctor
   Client::UI::Addon_Auto_UserPolicyPerformance:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141814E38
-  Client::UI::Addon_Auto_UserPolicyPerformance:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142042480
+    funcs:
+      0x140F2B6A0: ctor
   Client::UI::Addon_Auto_BuddyInventory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141815050
+    funcs:
+      0x140F2BFC0: ctor
   Client::UI::Addon_Auto_Description:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141815288
+    funcs:
+      0x140F2D970: ctor
   Client::UI::Addon_Auto_DescriptionYTC:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418154C0
-  Client::UI::Addon_Auto_DescriptionYTC:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1420428D0
+    funcs:
+      0x140F2F8D0: ctor
   Client::UI::Addon_Auto_Alarm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418156D8
+    funcs:
+      0x140F31D80: ctor
   Client::UI::Addon_Auto_AlarmSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418158F0
+    funcs:
+      0x140F32760: ctor
   Client::UI::Addon_Auto_ContentsFinderStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141815B08
+    funcs:
+      0x140F347F0: ctor
   Client::UI::Addon_Auto_WorkshopSupply:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141815D20
+    funcs:
+      0x140F34B50: ctor
   Client::UI::Addon_Auto_WorkshopSupplyResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141815F38
+    funcs:
+      0x140F35CD0: ctor
   Client::UI::Addon_Auto_DescriptionMini:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816150
+    funcs:
+      0x140F35FA0: ctor
   Client::UI::Addon_Auto_QuestRedoUI:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816368
+    funcs:
+      0x140F36D80: ctor
   Client::UI::Addon_Auto_QuestRedoUIHUD:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816580
+    funcs:
+      0x140F3A8F0: ctor
   Client::UI::Addon_Auto_SelectRetry:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816798
+    funcs:
+      0x140F3B0F0: ctor
   Client::UI::Addon_Auto_StorageCheck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418169B0
+    funcs:
+      0x140F3BB50: ctor
   Client::UI::Addon_Auto_SynthesisSimulator:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816BC8
+    funcs:
+      0x140F3BF30: ctor
   Client::UI::Addon_Auto_FieldMarker:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141816DE0
+    funcs:
+      0x140F3CA30: ctor
   Client::UI::Addon_Auto_RecipeProductList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817018
+    funcs:
+      0x140F3E0E0: ctor
   Client::UI::Addon_Auto_InclusionShop:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817250
+    funcs:
+      0x140F3EE60: ctor
   Client::UI::Addon_Auto_SupplyCollectableItems:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817488
+    funcs:
+      0x140F40290: ctor
   Client::UI::Addon_Auto_TourismMenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418176A0
+    funcs:
+      0x140F42340: ctor
   Client::UI::Addon_Auto_Alliance48:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418178B8
+    funcs:
+      0x140F42850: ctor
   Client::UI::Addon_Auto_SynthesisCondition:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817AD0
+    funcs:
+      0x140F43170: ctor
   Client::UI::Addon_Auto_FishRelease:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817CE8
+    funcs:
+      0x140F43820: ctor
   Client::UI::Addon_Auto_SkyIsland:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141817F20
+    funcs:
+      0x140F44270: ctor
   Client::UI::Addon_Auto_SkyIslandSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818138
+    funcs:
+      0x140F45AB0: ctor
   Client::UI::Addon_Auto_SkyIslandResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818350
+    funcs:
+      0x140F46A20: ctor
   Client::UI::Addon_Auto_SkyIslandSpoilTrade:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818568
+    funcs:
+      0x140F470B0: ctor
   Client::UI::Addon_Auto_SkyIslandResult2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818780
+    funcs:
+      0x140F47EE0: ctor
   Client::UI::Addon_Auto_BeginnersRoomMainWindow:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818998
+    funcs:
+      0x140F48610: ctor
   Client::UI::Addon_Auto_BeginnersRoomCompletedTraining:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818BB0
+    funcs:
+      0x140F48DF0: ctor
   Client::UI::Addon_Auto_DpsChallenge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141818DE8
+    funcs:
+      0x140F49470: ctor
   Client::UI::Addon_Auto_Orchestrion:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819020
-  Client::UI::Addon_Auto_Orchestrion:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141819248
+    funcs:
+      0x140F4ABE0: ctor
   Client::UI::Addon_Auto_OrchestrionPlayList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819470
+    funcs:
+      0x140F4D3D0: ctor
   Client::UI::Addon_Auto_OrchestrionPlayListEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819698
-  Client::UI::Addon_Auto_OrchestrionPlayListMusicSelect:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418198B0
+    funcs:
+      0x140F4E770: ctor
   Client::UI::Addon_Auto_GcArmyMemberList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819AD8
+    funcs:
+      0x140F4F4D0: ctor
   Client::UI::Addon_Auto_GcArmyMemberProfile:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819CF0
+    funcs:
+      0x140F50190: ctor
   Client::UI::Addon_Auto_GcArmyChangeClass:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141819F08
+    funcs:
+      0x140F50FF0: ctor
   Client::UI::Addon_Auto_GcArmyChangeExpeditionTrait:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181A120
+    funcs:
+      0x140F51BA0: ctor
   Client::UI::Addon_Auto_GcArmyChangeTactic:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181A338
+    funcs:
+      0x140F51D90: ctor
   Client::UI::Addon_Auto_GcArmyChangeMiragePrism:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181A550
+    funcs:
+      0x140F52480: ctor
   Client::UI::Addon_Auto_GcArmyMiragePrism:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181A788
+    funcs:
+      0x140F53730: ctor
   Client::UI::Addon_Auto_GcArmyMiragePrismDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181A9B8
+    funcs:
+      0x140F54170: ctor
   Client::UI::Addon_Auto_GcArmyExpeditionSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181ABD0
+    funcs:
+      0x140F548A0: ctor
   Client::UI::Addon_Auto_GcArmyExpeditionResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181ADE8
+    funcs:
+      0x140F56280: ctor
   Client::UI::Addon_Auto_GcArmyTrainingList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181B000
+    funcs:
+      0x140F56DB0: ctor
   Client::UI::Addon_Auto_GcArmyCaptureSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181B228
+    funcs:
+      0x140F57E70: ctor
   Client::UI::Addon_Auto_GcArmyOrder:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181B440
+    funcs:
+      0x140F58F80: ctor
   Client::UI::Addon_Auto_DeepDungeonInspect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181B658
+    funcs:
+      0x140F597A0: ctor
   Client::UI::Addon_Auto_DeepDungeonNaviMap:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181B870
+    funcs:
+      0x140F5A2D0: ctor
   Client::UI::Addon_Auto_DeepDungeonSaveData:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181BCD8
+    funcs:
+      0x140F5EBA0: ctor
   Client::UI::Addon_Auto_DeepDungeonTopMenu:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181BEF0
+    funcs:
+      0x140F5F7A0: ctor
   Client::UI::Addon_Auto_DeepDungeonScoreList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181C108
+    funcs:
+      0x140F5FFA0: ctor
   Client::UI::Addon_Auto_DeepDungeonResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181C320
+    funcs:
+      0x140F60D70: ctor
   Client::UI::Addon_Auto_GroupPoseCameraSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181C780
+    funcs:
+      0x140F61840: ctor
   Client::UI::Addon_Auto_IdlingCameraSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181C9E0
+    funcs:
+      0x140F63430: ctor
   Client::UI::Addon_Auto_GroupPoseGuide:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181CC28
+    funcs:
+      0x140F63F90: ctor
   Client::UI::Addon_Auto_GroupPoseStampImage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181D058
-  Client::UI::Addon_Auto_GroupPoseStampImage:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142045960
+    funcs:
+      0x140F65390: ctor
   Client::UI::Addon_Auto_GroupPoseStampEditor:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181D270
+    funcs:
+      0x140F69EF0: ctor
   Client::UI::Addon_Auto_PvPDuelRequest:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181D498
+    funcs:
+      0x140F73090: ctor
   Client::UI::Addon_Auto_PvPColosseumHeader:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181D6B0
+    funcs:
+      0x140F73820: ctor
   Client::UI::Addon_Auto_PvPColosseumPartyList4:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181D8D0
+    funcs:
+      0x140F746E0: ctor
   Client::UI::Addon_Auto_PVPFrontlineGauge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181DAE8
+    funcs:
+      0x140F76360: ctor
   Client::UI::Addon_Auto_PvPSpectatorCameraList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181DD00
+    funcs:
+      0x140F76740: ctor
   Client::UI::Addon_Auto_PvPSpectatorList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181DF18
+    funcs:
+      0x140F76F20: ctor
   Client::UI::Addon_Auto_Gacha:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181E130
+    funcs:
+      0x140F77680: ctor
   Client::UI::Addon_Auto_ItemInspection:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181E560
+    funcs:
+      0x140F791C0: ctor
   Client::UI::Addon_Auto_SnipeHud:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181E9B0
+    funcs:
+      0x140F7B1F0: ctor
   Client::UI::Addon_Auto_SnipeHudBg:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181EBC8
+    funcs:
+      0x140F7BEE0: ctor
   Client::UI::Addon_Auto_SnipeToDo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181EDE0
+    funcs:
+      0x140F7C370: ctor
   Client::UI::Addon_Auto_ImageSnipeTitle:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181EFF8
+    funcs:
+      0x140F7C9F0: ctor
   Client::UI::Addon_Auto_ScenarioTreeDetail:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181F210
+    funcs:
+      0x140F7CE40: ctor
   Client::UI::Addon_Auto_ScenarioTree:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181F428
+    funcs:
+      0x140F7D0F0: ctor
   Client::UI::Addon_Auto_EurekaElementalHud:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181F640
+    funcs:
+      0x140F7DD10: ctor
   Client::UI::Addon_Auto_EurekaElementalEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181F888
+    funcs:
+      0x140F7FA30: ctor
   Client::UI::Addon_Auto_EurekaChainText:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181FB60
+    funcs:
+      0x140F80970: ctor
   Client::UI::Addon_Auto_EurekaLogosAetherList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181FD78
+    funcs:
+      0x140F80BB0: ctor
   Client::UI::Addon_Auto_EurekaLogosShardList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14181FF90
+    funcs:
+      0x140F81980: ctor
   Client::UI::Addon_Auto_EurekaLogosShardSynthesis:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418201A8
-  Client::UI::Addon_Auto_EurekaLogosShardSynthesis:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14204701C
+    funcs:
+      0x140F82AA0: ctor
   Client::UI::Addon_Auto_EurekaLogosActionNote:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418203C0
-  Client::UI::Addon_Auto_EurekaLogosActionNote:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14204725C
+    funcs:
+      0x140F84DD0: ctor
   Client::UI::Addon_Auto_EurekaWeaponUpgrade:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418205D8
+    funcs:
+      0x140F85580: ctor
   Client::UI::Addon_Auto_EurekaWeaponUpgradeDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418207F0
+    funcs:
+      0x140F85A60: ctor
   Client::UI::Addon_Auto_ContentsReplayPlayer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141820A08
+    funcs:
+      0x140F85D80: ctor
   Client::UI::Addon_Auto_ContentsReplaySetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141820C20
-  Client::UI::Addon_Auto_Performance:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141821060
-  Client::UI::Addon_Auto_PerformanceWide:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418213D8
+    funcs:
+      0x140F86E50: ctor
   Client::UI::Addon_Auto_PerformanceKeybind:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141821848
+    funcs:
+      0x140F89E60: ctor
   Client::UI::Addon_Auto_PerformanceGamePadGuide:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141821D40
+    funcs:
+      0x140F8CFE0: ctor
   Client::UI::Addon_Auto_PerformanceMetronome:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418220E0
+    funcs:
+      0x140F8D630: ctor
   Client::UI::Addon_Auto_PerformanceMetronomeSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141822308
+    funcs:
+      0x140F8E8C0: ctor
   Client::UI::Addon_Auto_PerformancePlayGuide:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141822520
-  Client::UI::Addon_Auto_PerformancePlayGuide:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142047B2C
+    funcs:
+      0x140F8F190: ctor
   Client::UI::Addon_Auto_PerformancePlayGuideSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418227A0
+    funcs:
+      0x140F90120: ctor
   Client::UI::Addon_Auto_PerformanceReadyCheck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418229B8
+    funcs:
+      0x140F90690: ctor
   Client::UI::Addon_Auto_PerformanceReadyCheckReceive:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141822BD0
+    funcs:
+      0x140F91100: ctor
   Client::UI::Addon_Auto_PerformanceToneChange:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141822DE8
+    funcs:
+      0x140F916A0: ctor
   Client::UI::Addon_Auto_Reconstruction:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823000
+    funcs:
+      0x140F91CC0: ctor
   Client::UI::Addon_Auto_ReconstructionBuyBack:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823218
+    funcs:
+      0x140F92D70: ctor
   Client::UI::Addon_Auto_MerchantEquipSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823430
+    funcs:
+      0x140F93760: ctor
   Client::UI::Addon_Auto_MerchantSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823648
+    funcs:
+      0x140F93F90: ctor
   Client::UI::Addon_Auto_MerchantShop:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823860
+    funcs:
+      0x140F94E00: ctor
   Client::UI::Addon_Auto_AozBriefing:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823A78
+    funcs:
+      0x140F96040: ctor
   Client::UI::Addon_Auto_AozContentsResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823C90
+    funcs:
+      0x140F987E0: ctor
   Client::UI::Addon_Auto_AozBonusList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141823EA8
+    funcs:
+      0x140F99340: ctor
   Client::UI::Addon_Auto_SelectStringCutScene:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418240C0
+    funcs:
+      0x140F99720: ctor
   Client::UI::Addon_Auto_DawnParty:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418242D8
+    funcs:
+      0x140F9A600: ctor
   Client::UI::Addon_Auto_DawnPartyHelp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418244F0
+    funcs:
+      0x140F9C600: ctor
   Client::UI::Addon_Auto_MentorCondition:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141824708
+    funcs:
+      0x140F9C960: ctor
   Client::UI::Addon_Auto_MentorCertification:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141824930
+    funcs:
+      0x140F9D0B0: ctor
   Client::UI::Addon_Auto_MentorRenewDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141824B48
+    funcs:
+      0x140F9D400: ctor
   Client::UI::Addon_Auto_HWDInfoBoard:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141824D80
+    funcs:
+      0x140F9D860: ctor
   Client::UI::Addon_Auto_HWDLottery:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141824F98
-  Client::UI::Addon_Auto_HWDLottery:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142048A20
+    funcs:
+      0x140F9EE40: ctor
   Client::UI::Addon_Auto_HWDSupply:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418252D0
+    funcs:
+      0x140FA3790: ctor
   Client::UI::Addon_Auto_AetherGauge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418254E8
+    funcs:
+      0x140FA4180: ctor
   Client::UI::Addon_Auto_HWDGathererInspection:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141825700
+    funcs:
+      0x140FA4760: ctor
   Client::UI::Addon_Auto_HWDGathererInspectionTargetList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141825918
+    funcs:
+      0x140FA5EC0: ctor
   Client::UI::Addon_Auto_HWDScoreList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141825B30
+    funcs:
+      0x140FA6850: ctor
   Client::UI::Addon_Auto_RecipeNotebookInspectionList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141825D48
+    funcs:
+      0x140FA7540: ctor
   Client::UI::Addon_Auto_HWDMonument:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141825F60
+    funcs:
+      0x140FA7C20: ctor
   Client::UI::Addon_Auto_Invaluable:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141826178
+    funcs:
+      0x140FA7DA0: ctor
   Client::UI::Addon_Auto_WeeklyBingoBonusInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141826618
+    funcs:
+      0x140FAD7D0: ctor
   Client::UI::Addon_Auto_WeeklyBingoResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141826830
+    funcs:
+      0x140FADC40: ctor
   Client::UI::Addon_Auto_WeeklyPuzzleResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141826C60
+    funcs:
+      0x140FB1A00: ctor
   Client::UI::Addon_Auto_CruisingTimeTable:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141826E78
+    funcs:
+      0x140FB1DC0: ctor
   Client::UI::Addon_Auto_CruisingInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141827090
+    funcs:
+      0x140FB31E0: ctor
   Client::UI::Addon_Auto_CruisingCreel:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418272C8
+    funcs:
+      0x140FB4D30: ctor
   Client::UI::Addon_Auto_CruisingResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418274E0
-  Client::UI::Addon_Auto_CruisingResult:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14204A43C
+    funcs:
+      0x140FB69C0: ctor
   Client::UI::Addon_Auto_ToDoCruising:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418276F8
+    funcs:
+      0x140FB8CD0: ctor
   Client::UI::Addon_Auto_MYCCharacterNote:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141827910
+    funcs:
+      0x140FB94D0: ctor
   Client::UI::Addon_Auto_MYCInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141827BB8
+    funcs:
+      0x140FBB750: ctor
   Client::UI::Addon_Auto_MYCBattleAreaInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141827DD0
+    funcs:
+      0x140FBC0E0: ctor
   Client::UI::Addon_Auto_MYCItemBag:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141828278
+    funcs:
+      0x140FBECE0: ctor
   Client::UI::Addon_Auto_MYCItemMySet:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141828490
+    funcs:
+      0x140FC0FD0: ctor
   Client::UI::Addon_Auto_MYCActionSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418286A8
+    funcs:
+      0x140FC16C0: ctor
   Client::UI::Addon_Auto_MYCDuelRequest:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418288C0
+    funcs:
+      0x140FC1AE0: ctor
   Client::UI::Addon_Auto_MYCDuelRequestDialogue:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141828AD8
+    funcs:
+      0x140FC1E60: ctor
   Client::UI::Addon_Auto_MYCRelicGrowth:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141828CF0
+    funcs:
+      0x140FC22D0: ctor
   Client::UI::Addon_Auto_BKJInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418295B0
+    funcs:
+      0x140FC55F0: ctor
   Client::UI::Addon_Auto_BKJSupplyList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418297C8
+    funcs:
+      0x140FC60D0: ctor
   Client::UI::Addon_Auto_BKJPouch:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418299E0
+    funcs:
+      0x140FC6D60: ctor
   Client::UI::Addon_Auto_TheStarlightCelebration2020:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141829BF8
-  Client::UI::Addon_Auto_TheStarlightCelebration2020:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14204B3D8
+    funcs:
+      0x140FC7BC0: ctor
   Client::UI::Addon_Auto_TargetCursorGrand:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182C768
+    funcs:
+      0x140FE1B40: ctor
   Client::UI::Addon_Auto_AreaText:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182D008
+    funcs:
+      0x140FE7A80: ctor
   Client::UI::Addon_Auto_GetAction:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182D258
-  Client::UI::Addon_Auto_GrandCompany0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182D6F8
-  Client::UI::Addon_Auto_GrandCompany1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182D948
+    funcs:
+      0x140FE7F00: ctor
   Client::UI::Addon_Auto_GrandCompany2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182DB98
+    funcs:
+      0x140FE8F60: ctor
   Client::UI::Addon_Auto_Image:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182DDE8
-  Client::UI::Addon_Auto_ImageBossName:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182E038
-  Client::UI::Addon_Auto_ImageQuestAcceptedNIKU:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182E4E0
-  Client::UI::Addon_Auto_ImageQuestCompleteNIKU:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182E738
-  Client::UI::Addon_Auto_ImageQuestFailedNIKU:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182E990
+    funcs:
+      0x140FE9450: ctor
   Client::UI::Addon_Auto_ImageActionLearnedAOZ:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182EBE8
+    funcs:
+      0x140FEAA20: ctor
   Client::UI::Addon_Auto_ImageStreakBKC:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182EE38
+    funcs:
+      0x140FEAEF0: ctor
   Client::UI::Addon_Auto_ImageEndingMessage210:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182F088
+    funcs:
+      0x140FEB370: ctor
   Client::UI::Addon_Auto_ImageNextPreview:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182F2D8
-  Client::UI::Addon_Auto_ImageLocationTitle:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182F778
-  Client::UI::Addon_Auto_ImageLocationTitleShort:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14182F9C8
+    funcs:
+      0x140FEBA00: ctor
   Client::UI::Addon_Auto_LevelUp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182FC18
+    funcs:
+      0x140FECE10: ctor
   Client::UI::Addon_Auto_Text0:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14182FE68
+    funcs:
+      0x140FED660: ctor
   Client::UI::Addon_Auto_TextChain:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418300B8
+    funcs:
+      0x140FEEA70: ctor
   Client::UI::Addon_Auto_TextClassChange:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141830308
+    funcs:
+      0x140FEEE00: ctor
   Client::UI::Addon_Auto_TextError:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141830558
-  Client::UI::Addon_Auto_TextMonsterNote0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141830A08
-  Client::UI::Addon_Auto_TextMonsterNote1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141830C68
-  Client::UI::Addon_Auto_TextMonsterNote2:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141830EC8
+    funcs:
+      0x140FEF1C0: ctor
   Client::UI::Addon_Auto_Text1:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831128
+    funcs:
+      0x140FF00E0: ctor
   Client::UI::Addon_Auto_Text2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831378
+    funcs:
+      0x140FF0B90: ctor
   Client::UI::Addon_Auto_TextAchievementUnlocked:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418315C8
+    funcs:
+      0x140FF1120: ctor
   Client::UI::Addon_Auto_TextContentsNoteBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831818
+    funcs:
+      0x140FF19A0: ctor
   Client::UI::Addon_Auto_TextRelicAtma:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831A68
+    funcs:
+      0x140FF23F0: ctor
   Client::UI::Addon_Auto_Image2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831CB8
+    funcs:
+      0x140FF2A30: ctor
   Client::UI::Addon_Auto_LevelUp2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141831F08
+    funcs:
+      0x140FF30C0: ctor
   Client::UI::Addon_Auto_ImageSystem:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141832158
+    funcs:
+      0x140FF35B0: ctor
   Client::UI::Addon_Auto_Streak:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418323A8
+    funcs:
+      0x140FF3C20: ctor
   Client::UI::Addon_Auto_Streak:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418325F8
+    funcs:
+      0x140FF4300: ctor
   Client::UI::Addon_Auto_PVPScreenInformation:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141832848
-  Client::UI::Addon_Auto_PvPRankRatingFunction:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141832D00
-  Client::UI::Addon_Auto_PvPRankPromotionQualifier:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141832F68
+    funcs:
+      0x140FF49A0: ctor
   Client::UI::Addon_Auto_ScreenInfo_RaceChocoboLogo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141833420
+    funcs:
+      0x140FF7070: ctor
   Client::UI::Addon_Auto_ScreenInfo_RaceChocobo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141833670
-  Client::UI::Addon_Auto_ScreenInfo_RaceChocobo:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14204FE90
+    funcs:
+      0x140FF7760: ctor
   Client::UI::Addon_Auto_CreditEnd:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418338C0
+    funcs:
+      0x140FF7CE0: ctor
   Client::UI::Addon_Auto_CreditEnd2:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141833B10
+    funcs:
+      0x140FF81F0: ctor
   Client::UI::Addon_Auto_LovmVersus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141833D60
+    funcs:
+      0x140FF86A0: ctor
   Client::UI::Addon_Auto_LovmHudCutIn:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141833FB0
+    funcs:
+      0x140FF8CC0: ctor
   Client::UI::Addon_Auto_Image:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141834200
+    funcs:
+      0x140FF9310: ctor
   Client::UI::Addon_Auto_ImageGenericTitle:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141834450
+    funcs:
+      0x140FF9D30: ctor
   Client::UI::Addon_Auto_LevelDown:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418346A0
+    funcs:
+      0x140FFA470: ctor
   Client::UI::Addon_Auto_Image:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418348F0
+    funcs:
+      0x140FFA8C0: ctor
   Client::UI::Addon_Auto_Status:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418358A0
+    funcs:
+      0x140FFE270: ctor
   Client::UI::Addon_Auto_StatusCustom:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141835AD0
+    funcs:
+      0x140FFE5C0: ctor
   Client::UI::Addon_Auto_NotificationItem:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141836398
-  Client::UI::Addon_Auto_ActionBar:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418375E8
-  Client::UI::Addon_Auto_ToDoQuest:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141837F88
-  Client::UI::Addon_Auto_ToDoContents:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418381F0
-  Client::UI::Addon_Auto_ActionBarHorizontal:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418386B0
-  Client::UI::Addon_Auto_ActionBarVertical:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141838998
+    funcs:
+      0x141001B50: ctor
   Client::UI::Addon_Auto_ContentGauge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14183A0A0
-  Client::UI::Addon_Auto_JobHudAST0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183A610
-  Client::UI::Addon_Auto_JobHudBLM0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183A8F0
-  Client::UI::Addon_Auto_JobHudBRD0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183ABD0
-  Client::UI::Addon_Auto_JobHudDRK0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183AEB0
-  Client::UI::Addon_Auto_JobHudDRK1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183B190
-  Client::UI::Addon_Auto_JobHudDRG0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183B470
-  Client::UI::Addon_Auto_JobHudMCH0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183B750
-  Client::UI::Addon_Auto_JobHudMNK1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183BA30
-  Client::UI::Addon_Auto_JobHudNIN0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183BD10
-  Client::UI::Addon_Auto_JobHudNIN1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183BFF0
-  Client::UI::Addon_Auto_JobHudPLD0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183C2D0
-  Client::UI::Addon_Auto_JobHudRDM0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183C5B0
-  Client::UI::Addon_Auto_JobHudSAM0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183C890
-  Client::UI::Addon_Auto_JobHudSAM1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183CB70
-  Client::UI::Addon_Auto_JobHudSCH0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183CE90
-  Client::UI::Addon_Auto_JobHudSCH1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183D170
-  Client::UI::Addon_Auto_JobHudSMN0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183D450
-  Client::UI::Addon_Auto_JobHudSMN1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183D730
-  Client::UI::Addon_Auto_JobHudWAR0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183DA10
-  Client::UI::Addon_Auto_JobHudWHM0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183DCF0
-  Client::UI::Addon_Auto_JobHudGNB0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183DFD0
-  Client::UI::Addon_Auto_JobHudDNC0:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183E2B0
-  Client::UI::Addon_Auto_JobHudDNC1:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183E590
+    funcs:
+      0x141023890: ctor
   Client::UI::Addon_Auto_HudLayoutBg:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14183E9F8
+    funcs:
+      0x14103D180: ctor
   Client::UI::Addon_Auto_HudLayoutSetCopy:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14183F048
-  Client::UI::Addon_Auto_HudLayoutCurrentWindow:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183F498
-  Client::UI::Addon_Auto_HudLayoutCurrentBuffStatus:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183F6D0
-  Client::UI::Addon_Auto_HudLayoutCurrentTarget:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14183F908
+    funcs:
+      0x141045EA0: ctor
   Client::UI::Addon_Auto_HudLayoutSnapSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14183FB40
+    funcs:
+      0x14104B7B0: ctor
   Client::UI::Addon_Auto_TextHousingGardening:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418402A8
+    funcs:
+      0x141058390: ctor
   Client::UI::Addon_Auto_HousingSignBoard:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418404C0
+    funcs:
+      0x1410586F0: ctor
   Client::UI::Addon_Auto_HousingSelectDeed:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418406D8
+    funcs:
+      0x141059500: ctor
   Client::UI::Addon_Auto_HousingSelectBlock:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418408F0
+    funcs:
+      0x141059DE0: ctor
   Client::UI::Addon_Auto_HousingGardening:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141840B08
+    funcs:
+      0x14105B110: ctor
   Client::UI::Addon_Auto_HousingGoods:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141840D40
-  Client::UI::Addon_Auto_HousingGoods:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141840F60
+    funcs:
+      0x14105BF70: ctor
   Client::UI::Addon_Auto_HousingLayout:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141841180
+    funcs:
+      0x14105E540: ctor
   Client::UI::Addon_Auto_HousingEditMessage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141841398
+    funcs:
+      0x14105F0E0: ctor
   Client::UI::Addon_Auto_HousingEditInterior:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418415B0
+    funcs:
+      0x14105F5A0: ctor
   Client::UI::Addon_Auto_HousingEditExterior:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418417C8
+    funcs:
+      0x141060CC0: ctor
   Client::UI::Addon_Auto_HousingConfig:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418419E0
+    funcs:
+      0x141061FE0: ctor
   Client::UI::Addon_Auto_HousingPadGuide:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141841BF8
+    funcs:
+      0x141062560: ctor
   Client::UI::Addon_Auto_HousingTravellersNote:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141841E10
+    funcs:
+      0x141062760: ctor
   Client::UI::Addon_Auto_HousingSelectRoom:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842028
+    funcs:
+      0x141062EA0: ctor
   Client::UI::Addon_Auto_HousingSelectRoom:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843308
+    funcs:
+      0x141069C60: ctor
   Client::UI::Addon_Auto_HousingChocoboList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842248
+    funcs:
+      0x141063FB0: ctor
   Client::UI::Addon_Auto_HousingWithdrawStorage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842460
+    funcs:
+      0x1410654E0: ctor
   Client::UI::Addon_Auto_HousingWheelStand:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842678
+    funcs:
+      0x141065CD0: ctor
   Client::UI::Addon_Auto_HousingConfigLight:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842890
+    funcs:
+      0x1410671D0: ctor
   Client::UI::Addon_Auto_HousingMate:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842AA8
+    funcs:
+      0x141067650: ctor
   Client::UI::Addon_Auto_HousingReleaseAuthority:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141842CC0
+    funcs:
+      0x141068E30: ctor
   Client::UI::Addon_Auto_VaseSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418430F0
+    funcs:
+      0x141069280: ctor
   Client::UI::Addon_Auto_AquariumSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843528
+    funcs:
+      0x141069E00: ctor
   Client::UI::Addon_Auto_AquariumFishList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843750
+    funcs:
+      0x14106ACA0: ctor
   Client::UI::Addon_Auto_HousingWareHouseStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843970
+    funcs:
+      0x14106B6E0: ctor
   Client::UI::Addon_Auto_HousingGuestBook:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843B88
+    funcs:
+      0x14106B9D0: ctor
   Client::UI::Addon_Auto_HousingAppealSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843DA0
+    funcs:
+      0x14106CF80: ctor
   Client::UI::Addon_Auto_HousingFurnitureCatalog:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141843FD8
+    funcs:
+      0x14106D6D0: ctor
   Client::UI::Addon_Auto_WorldTranslate:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141844220
+    funcs:
+      0x14106F400: ctor
   Client::UI::Addon_Auto_WorldTranslateStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141844450
+    funcs:
+      0x141070220: ctor
   Client::UI::Addon_Auto_WorldTranslateConfirm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141844680
-  Client::UI::Addon_Auto_PunchingMachine:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141845540
-  Client::UI::Addon_Auto_PunchingMachine:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058CD4
-  Client::UI::Addon_Auto_BasketBall:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141845790
-  Client::UI::Addon_Auto_BasketBall:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058D10
-  Client::UI::Addon_Auto_Hammer:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418459D0
-  Client::UI::Addon_Auto_Hammer:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058D4C
-  Client::UI::Addon_Auto_MogCatcher:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141845C10
-  Client::UI::Addon_Auto_MogCatcher:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058D7C
+    funcs:
+      0x1410704D0: ctor
   Client::UI::Addon_Auto_BalloonMessage:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141845E50
-  Client::UI::Addon_Auto_BalloonMessage:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058DDC
-  Client::UI::Addon_Auto_MinerGame:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1418462B8
-  Client::UI::Addon_Auto_MinerGame:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058ECC
-  Client::UI::Addon_Auto_BotanistGame:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141846518
-  Client::UI::Addon_Auto_BotanistGame:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058EF0
-  Client::UI::Addon_Auto_MinerBotanistAim:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141846778
-  Client::UI::Addon_Auto_MinerBotanistAim:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142058F20
+    funcs:
+      0x141072E30: ctor
   Client::UI::Addon_Auto_GsScreenText:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418469B8
+    funcs:
+      0x1410743D0: ctor
   Client::UI::Addon_Auto_TripleTriad:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141846BE8
-  Client::UI::Addon_Auto_TripleTriad:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1420591C0
+    funcs:
+      0x1410759D0: ctor
   Client::UI::Addon_Auto_TripleTriadApplication:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141846E00
+    funcs:
+      0x1410793F0: ctor
   Client::UI::Addon_Auto_TripleTriadResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847018
-  Client::UI::Addon_Auto_TripleTriadResult:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x1420594FC
+    funcs:
+      0x14107A7A0: ctor
   Client::UI::Addon_Auto_ShopCard:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847230
+    funcs:
+      0x14107B110: ctor
   Client::UI::Addon_Auto_TripleTriadDeckSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847448
+    funcs:
+      0x14107B970: ctor
   Client::UI::Addon_Auto_TripleTriadRanking:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847660
+    funcs:
+      0x14107BF60: ctor
   Client::UI::Addon_Auto_TripleTriadRule:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847878
+    funcs:
+      0x14107C640: ctor
   Client::UI::Addon_Auto_TripleTriadTournamentSchedule:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847CA8
+    funcs:
+      0x14107CFE0: ctor
   Client::UI::Addon_Auto_TripleTriadRuleAnnounce:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141847EC0
+    funcs:
+      0x14107D7B0: ctor
   Client::UI::Addon_Auto_TripleTriadRuleSetting:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418480D8
+    funcs:
+      0x14107D8A0: ctor
   Client::UI::Addon_Auto_TripleTriadPickUpDeckSelect:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418482F0
+    funcs:
+      0x14107DDD0: ctor
   Client::UI::Addon_Auto_TripleTriadDeckConfirmation:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848508
+    funcs:
+      0x14107E920: ctor
   Client::UI::Addon_Auto_TripleTriadPlayerInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848720
+    funcs:
+      0x14107F010: ctor
   Client::UI::Addon_Auto_TripleTriadRoundResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848938
+    funcs:
+      0x14107F450: ctor
   Client::UI::Addon_Auto_TripleTriadTournamentResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848B50
+    funcs:
+      0x1410801D0: ctor
   Client::UI::Addon_Auto_TripleTriadTournamentReward:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848D68
+    funcs:
+      0x141082150: ctor
   Client::UI::Addon_Auto_TripleTriadTournamentPlayer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141848F80
+    funcs:
+      0x141082BF0: ctor
   Client::UI::Addon_Auto_TripleTriadTournamentReport:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141849198
-  Client::UI::Addon_Auto_TripleTriadTournamentReport:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x142059F34
+    funcs:
+      0x141083340: ctor
   Client::UI::Addon_Auto_GoldSaucer:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418493B0
+    funcs:
+      0x1410836B0: ctor
   Client::UI::Addon_Auto_GoldSaucerGeneral:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418495C8
+    funcs:
+      0x141084AB0: ctor
   Client::UI::Addon_Auto_GoldSaucerRaceParameter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418497E0
+    funcs:
+      0x141085270: ctor
   Client::UI::Addon_Auto_GoldSaucerRacePedigree:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418499F8
+    funcs:
+      0x1410840C0: ctor
   Client::UI::Addon_Auto_GoldSaucerRaceAppearance:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141849C10
+    funcs:
+      0x141085FB0: ctor
   Client::UI::Addon_Auto_GoldSaucerCardList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141849E28
+    funcs:
+      0x1410866C0: ctor
   Client::UI::Addon_Auto_GoldSaucerCardDeck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184A040
+    funcs:
+      0x1410840C0: ctor
   Client::UI::Addon_Auto_GoldSaucerVerminion:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184A258
+    funcs:
+      0x141088480: ctor
   Client::UI::Addon_Auto_GoldSaucerEmj:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184A470
+    funcs:
+      0x141088A50: ctor
   Client::UI::Addon_Auto_GoldSaucerCardDeckEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184A688
+    funcs:
+      0x141088FE0: ctor
   Client::UI::Addon_Auto_GoldSaucerCardFilter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184A8A0
+    funcs:
+      0x14108B950: ctor
   Client::UI::Addon_Auto_LotteryWeekly:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184AAB8
+    funcs:
+      0x14108CB60: ctor
   Client::UI::Addon_Auto_LotteryWeeklyHistory:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184ACF0
+    funcs:
+      0x14108D7F0: ctor
   Client::UI::Addon_Auto_LotteryWeeklyRewardList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184AF08
+    funcs:
+      0x14108E540: ctor
   Client::UI::Addon_Auto_BreedCoupling:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184B120
+    funcs:
+      0x14108F2A0: ctor
   Client::UI::Addon_Auto_BreedNaming:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184B338
+    funcs:
+      0x141090A20: ctor
   Client::UI::Addon_Auto_BreedNameList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184B550
+    funcs:
+      0x1410915F0: ctor
   Client::UI::Addon_Auto_BreedTraining:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184B768
+    funcs:
+      0x1410925C0: ctor
   Client::UI::Addon_Auto_BreedTraining:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184B980
+    funcs:
+      0x141093420: ctor
   Client::UI::Addon_Auto_RaceChocoboStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184BDB0
+    funcs:
+      0x141093E00: ctor
   Client::UI::Addon_Auto_RaceChocoboReady:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184C1E0
+    funcs:
+      0x141094140: ctor
   Client::UI::Addon_Auto_RaceChocoboConfirm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184C610
+    funcs:
+      0x1410946E0: ctor
   Client::UI::Addon_Auto_RaceChocoboResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184C828
+    funcs:
+      0x141094870: ctor
   Client::UI::Addon_Auto_RaceChocoboRanking:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184CA40
+    funcs:
+      0x141095640: ctor
   Client::UI::Addon_Auto_RaceChocoboItemBox:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184CC60
+    funcs:
+      0x141096230: ctor
   Client::UI::Addon_Auto_RaceChocoboParameter:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184CE78
+    funcs:
+      0x141096C90: ctor
   Client::UI::Addon_Auto_ShopExchangeCoin:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184D2B8
+    funcs:
+      0x141097190: ctor
   Client::UI::Addon_Auto_LovmHeader:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184D4D0
+    funcs:
+      0x141097630: ctor
   Client::UI::Addon_Auto_LovmTargetInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184D710
+    funcs:
+      0x1410986C0: ctor
   Client::UI::Addon_Auto_LovmPalette:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184D940
+    funcs:
+      0x1410993A0: ctor
   Client::UI::Addon_Auto_LovmPartyList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184DB60
+    funcs:
+      0x14109B040: ctor
   Client::UI::Addon_Auto_LovmQueueList:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184DD90
+    funcs:
+      0x14109BB50: ctor
   Client::UI::Addon_Auto_LovmTypeInfo:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184DFA8
+    funcs:
+      0x14109CD90: ctor
   Client::UI::Addon_Auto_LovmHelp:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184E1D0
-  Client::UI::Addon_Auto_LovmRanking:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14184E408
+    funcs:
+      0x14109D260: ctor
   Client::UI::Addon_Auto_LovmNamePlate:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184E620
-  Client::UI::Addon_Auto_LovmNamePlate:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205B9F8
+    funcs:
+      0x14109E090: ctor
   Client::UI::Addon_Auto_LovmResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184E838
-  Client::UI::Addon_Auto_LovmResult:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205BB90
+    funcs:
+      0x14109F030: ctor
   Client::UI::Addon_Auto_LovmMiniMap:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184EA50
-  Client::UI::Addon_Auto_LovmMiniMap:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205BBC0
+    funcs:
+      0x14109F820: ctor
   Client::UI::Addon_Auto_LovmPaletteEdit:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184EC68
-  Client::UI::Addon_Auto_LovmActionDetail:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14184EE80
+    funcs:
+      0x1410A0B80: ctor
   Client::UI::Addon_Auto_GoldSaucerReward:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184F0C8
-  Client::UI::Addon_Auto_GoldSaucerReward:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205BF14
+    funcs:
+      0x1410A3A60: ctor
   Client::UI::Addon_Auto_LovmStatus:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184F4F8
+    funcs:
+      0x1410A5770: ctor
   Client::UI::Addon_Auto_LovmConfirm:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184F710
+    funcs:
+      0x1410A5920: ctor
   Client::UI::Addon_Auto_LovmReady:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184F928
+    funcs:
+      0x1410A5B70: ctor
   Client::UI::Addon_Auto_FashionCheck:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184FB40
+    funcs:
+      0x1410A5D70: ctor
   Client::UI::Addon_Auto_FashionCheckScoreGauge:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184FD70
-  Client::UI::Addon_Auto_FashionCheckScoreGauge:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205C1A8
+    funcs:
+      0x1410A65F0: ctor
   Client::UI::Addon_Auto_Emj:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x14184FF88
-  Client::UI::Addon_Auto_Emj:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x14205C448
+    funcs:
+      0x1410A6DF0: ctor
   Client::UI::Addon_Auto_EmjRankResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418502A0
+    funcs:
+      0x1410B2CE0: ctor
   Client::UI::Addon_Auto_EmjRankPoint:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418504C8
+    funcs:
+      0x1410B37B0: ctor
   Client::UI::Addon_Auto_EmjConfig:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418506F8
+    funcs:
+      0x1410B3FA0: ctor
   Client::UI::Addon_Auto_GateResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x141850910
-  Client::UI::Addon_Auto_RideShootingBg:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141850B28
-  Client::UI::Addon_Auto_RideShootingFlyText:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141850D60
-  Client::UI::Addon_Auto_RideShooting:
-    inherits_from: Component::GUI::AtkUnitBase
-    vtbl: 0x141850F80
+    funcs:
+      0x1410B4CA0: ctor
   Client::UI::Addon_Auto_RideShootingResult:
     inherits_from: Component::GUI::AtkUnitBase
     vtbl: 0x1418511E0
+    funcs:
+      0x1410B61E0: ctor
+  Client::UI::Addon_Auto_SelectOkTitle:
+    inherits_from: Client::UI::Addon_Auto_SelectOk
+    vtbl: 0x1417C9A98
+    funcs:
+      0x140CEDE60: ctor
+  Client::UI::Addon_Auto_PartyMemberList:
+    inherits_from: Client::UI::Addon_Auto_SocialList
+    vtbl: 0x1417CC4D0
+    funcs:
+      0x140D00240: ctor
+  Client::UI::Addon_Auto_LFGSearch:
+    inherits_from: Client::UI::Addon_Auto_LFGCondition
+    vtbl: 0x1417CEAC0
+    funcs:
+      0x140D1EEF0: ctor
+  Client::UI::Addon_Auto_ContentsReplayReadyCheckAlliance:
+    inherits_from: Client::UI::Addon_Auto_ContentsReplayReadyCheck
+    vtbl: 0x1417CF570
+    funcs:
+      0x140D22C70: ctor
+  Client::UI::Addon_Auto_BeginnerChannelJoinList:
+    inherits_from: Client::UI::Addon_Auto_SocialList
+    vtbl: 0x1417CFE00
+    funcs:
+      0x140D249D0: ctor
+  Client::UI::Addon_Auto_FreeCompanyExchange:
+    inherits_from: Client::UI::Addon_Auto_FreeCompanyAction
+    vtbl: 0x1417D3120
+    funcs:
+      0x140D363E0: ctor
+  Client::UI::Addon_Auto_CharaMake_DataExport:
+    inherits_from: Client::UI::Addon_Auto_CharaMake_DataImport
+    vtbl: 0x1417E65B8
+    funcs:
+      0x140DCD7A0: ctor
+  Client::UI::Addon_Auto_OrchestrionPlayListMusicSelect:
+    inherits_from: Client::UI::Addon_Auto_Orchestrion
+    vtbl: 0x1418198B0
+    funcs:
+      0x140F4F280: ctor
+  Client::UI::Addon_Auto_LovmRanking:
+    inherits_from: Client::UI::Addon_Auto_TripleTriadRanking
+    vtbl: 0x14184E408
+    funcs:
+      0x14109D530: ctor
