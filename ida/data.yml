@@ -2284,3 +2284,2535 @@ classes:
   SQEX::CDev::Engine::Sd::Whiz::WhizManager:
     inherits_from: SQEX::CDev::Engine::Sd::Whiz::IWhizManager
     vtbl: 0x1419C8DA0
+  Client::UI::Addon_Auto_Cursor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C6958
+  Client::UI::Addon_Auto_CursorLocation:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C6B70
+  Client::UI::Addon_Auto_CursorRect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C6D88
+  Client::UI::Addon_Auto_Dialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C71D0
+  Client::UI::Addon_Auto_ResidentDragTarget:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C7400
+  Client::UI::Addon_Auto_ScreenFrame:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C7C90
+  Client::UI::Addon_Auto_SelectOk:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C80D8
+  Client::UI::Addon_Auto_ListGrid:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C8998
+  Client::UI::Addon_Auto_ListIcon:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C8BB0
+  Client::UI::Addon_Auto_InputNumeric:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9238
+  Client::UI::Addon_Auto_InputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9450
+  Client::UI::Addon_Auto_ListColorChooser:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9668
+  Client::UI::Addon_Auto_SelectOkTitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9A98
+  Client::UI::Addon_Auto_SelectList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9CD8
+  Client::UI::Addon_Auto_ProgressBar:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417C9EF0
+  Client::UI::Addon_Auto_HelpWindow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CA108
+  Client::UI::Addon_Auto_MultipleHelpWindow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CA320
+  Client::UI::Addon_Auto_SelectCustomString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CA750
+  Client::UI::Addon_Auto_SelectStringEventGimmick:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CA968
+  Client::UI::Addon_Auto_InputMessage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CAB80
+  Client::UI::Addon_Auto_CheckBoxDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CAD98
+  Client::UI::Addon_Auto_CreditPlayer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CAFB0
+  Client::UI::Addon_Auto_CreditPlayer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14201EAC8
+  Client::UI::Addon_Auto_CreditStaff:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CB1C8
+  Client::UI::Addon_Auto_CreditCast:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CB3E0
+  Client::UI::Addon_Auto_CreditEnd:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CB5F8
+  Client::UI::Addon_Auto_CreditCast2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CB810
+  Client::UI::Addon_Auto_CreditStaff:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CBA28
+  Client::UI::Addon_Auto_SocialList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CC080
+  Client::UI::Addon_Auto_BlackList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CC298
+  Client::UI::Addon_Auto_PartyMemberList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CC4D0
+  Client::UI::Addon_Auto_LetterList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CC718
+  Client::UI::Addon_Auto_LetterViewer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CC930
+  Client::UI::Addon_Auto_LinkShell:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CCB48
+  Client::UI::Addon_Auto_LetterEditor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CCD60
+  Client::UI::Addon_Auto_SocialDetailA:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CD190
+  Client::UI::Addon_Auto_SocialDetailB:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CD3A8
+  Client::UI::Addon_Auto_PcSearchDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CD5C0
+  Client::UI::Addon_Auto_ItemSearch:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CD7D8
+  Client::UI::Addon_Auto_ItemSearchFilter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CDC08
+  Client::UI::Addon_Auto_ItemSearchHistory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CDE20
+  Client::UI::Addon_Auto_ItemSearchSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CE038
+  Client::UI::Addon_Auto_LFG:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CE468
+  Client::UI::Addon_Auto_LFGDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CE680
+  Client::UI::Addon_Auto_LFGCondition:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CE898
+  Client::UI::Addon_Auto_LFGSearch:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CEAC0
+  Client::UI::Addon_Auto_LFGSelectRole:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CECE8
+  Client::UI::Addon_Auto_AllianceMemberList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CEF00
+  Client::UI::Addon_Auto_ReadyCheck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CF120
+  Client::UI::Addon_Auto_ContentsReplayReadyCheck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CF348
+  Client::UI::Addon_Auto_ContentsReplayReadyCheckAlliance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CF570
+  Client::UI::Addon_Auto_LetterHistory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CF7B8
+  Client::UI::Addon_Auto_LetterAddress:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CF9D0
+  Client::UI::Addon_Auto_FriendGroupEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CFBE8
+  Client::UI::Addon_Auto_BeginnerChannelJoinList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417CFE00
+  Client::UI::Addon_Auto_BeginnerChannelKick:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0018
+  Client::UI::Addon_Auto_BeginnerChannelInviteDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0230
+  Client::UI::Addon_Auto_CountDownSettingDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0448
+  Client::UI::Addon_Auto_ScreenInfo_CountDown:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0660
+  Client::UI::Addon_Auto_LFGPrivate:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0878
+  Client::UI::Addon_Auto_LFGRecruiterNameSearch:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0A90
+  Client::UI::Addon_Auto_LFGFilterSettings:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0CA8
+  Client::UI::Addon_Auto_LFGSearchLogSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D0EC0
+  Client::UI::Addon_Auto_ReturnerDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D12F0
+  Client::UI::Addon_Auto_ReturnerDialogueDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1508
+  Client::UI::Addon_Auto_ContentMemberList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1720
+  Client::UI::Addon_Auto_FreeCompanyRights:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1958
+  Client::UI::Addon_Auto_FreeCompanyApplication:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1B70
+  Client::UI::Addon_Auto_FreeCompanyProfile:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1D88
+  Client::UI::Addon_Auto_MemberRankAssign:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D1FA0
+  Client::UI::Addon_Auto_MemberRankEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D21B8
+  Client::UI::Addon_Auto_MemberRankOrderEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D23D0
+  Client::UI::Addon_Auto_FreeCompanyInputMessage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D25E8
+  Client::UI::Addon_Auto_FreeCompanyInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D2808
+  Client::UI::Addon_Auto_FreeCompanyChest:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D2A20
+  Client::UI::Addon_Auto_FreeCompanyAction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D2EA8
+  Client::UI::Addon_Auto_FreeCompanyExchange:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D3120
+  Client::UI::Addon_Auto_FreeCompanyProfileEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D3398
+  Client::UI::Addon_Auto_FreeCompanyCrestEditor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D35B0
+  Client::UI::Addon_Auto_FreeCompanyCrestColor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D37F0
+  Client::UI::Addon_Auto_FreeCompanyCrestSymbolColor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D3A08
+  Client::UI::Addon_Auto_FreeCompanyCrestDecal:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D3C20
+  Client::UI::Addon_Auto_FreeCompanyChestLog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D3E38
+  Client::UI::Addon_Auto_FreeCompanyExchange:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4050
+  Client::UI::Addon_Auto_FreeCompany:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4268
+  Client::UI::Addon_Auto_FreeCompanyActivity:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4480
+  Client::UI::Addon_Auto_FreeCompanyMember:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D46F0
+  Client::UI::Addon_Auto_FreeCompanyRank:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4960
+  Client::UI::Addon_Auto_FreeCompanyStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4BD0
+  Client::UI::Addon_Auto_FreeCompanyTopics:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D4E40
+  Client::UI::Addon_Auto_CompanyCraftRecipe:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D50B0
+  Client::UI::Addon_Auto_ExplorationShip:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D52C8
+  Client::UI::Addon_Auto_ExplorationDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D54E0
+  Client::UI::Addon_Auto_ExplorationDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1420242A0
+  Client::UI::Addon_Auto_ExplorationConfirm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D5728
+  Client::UI::Addon_Auto_ExplorationReport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D5940
+  Client::UI::Addon_Auto_CompanyCraftDelivery:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D5B98
+  Client::UI::Addon_Auto_ExplorationSubMarine:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D5DB0
+  Client::UI::Addon_Auto_ExplorationChart:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D5FC8
+  Client::UI::Addon_Auto_ExplorationChart:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142024804
+  Client::UI::Addon_Auto_PvPTeam:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D61F8
+  Client::UI::Addon_Auto_FreeCompanyInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6410
+  Client::UI::Addon_Auto_PvPTeamMember:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6628
+  Client::UI::Addon_Auto_PvPTeamResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6840
+  Client::UI::Addon_Auto_PvPTeamActivity:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6A58
+  Client::UI::Addon_Auto_PvPTeamStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6C70
+  Client::UI::Addon_Auto_PVPTeamOrganization:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D6E88
+  Client::UI::Addon_Auto_CircleInvite:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D70A0
+  Client::UI::Addon_Auto_CircleList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D72B8
+  Client::UI::Addon_Auto_CircleInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D74D0
+  Client::UI::Addon_Auto_CircleBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D7848
+  Client::UI::Addon_Auto_CircleBookSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D7A60
+  Client::UI::Addon_Auto_CircleQuestionnaire:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D7C78
+  Client::UI::Addon_Auto_CircleBlackList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D7E90
+  Client::UI::Addon_Auto_CircleBoardEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D80A8
+  Client::UI::Addon_Auto_CircleMemberGroupEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D82C0
+  Client::UI::Addon_Auto_FreeCompanyInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D84D8
+  Client::UI::Addon_Auto_CircleFinderSearch:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D86F0
+  Client::UI::Addon_Auto_CircleFinder:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D8908
+  Client::UI::Addon_Auto_CircleFinderSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D8B20
+  Client::UI::Addon_Auto_CircleFinderHighlight:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D8D38
+  Client::UI::Addon_Auto_CrossWorldLinkShell:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D8F50
+  Client::UI::Addon_Auto_ConfigKeybind:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D9188
+  Client::UI::Addon_Auto_ConfigLog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D93A0
+  Client::UI::Addon_Auto_ConfigLogColor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D95B8
+  Client::UI::Addon_Auto_ConfigLogFilter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D97D0
+  Client::UI::Addon_Auto_ConfigLogFilterInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D99E8
+  Client::UI::Addon_Auto_ConfigSystem:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D9C00
+  Client::UI::Addon_Auto_ConfigPadCalibration:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417D9E18
+  Client::UI::Addon_Auto_ConfigCharacter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DA030
+  Client::UI::Addon_Auto_ConfigCharacterChatLogGeneral:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DA4B0
+  Client::UI::Addon_Auto_ConfigCharacterChatLogDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DA6F0
+  Client::UI::Addon_Auto_ConfigCharacterChatLogRingTone:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DA930
+  Client::UI::Addon_Auto_ConfigCharacterOperationCharacter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DAB70
+  Client::UI::Addon_Auto_ConfigCharacterOperationCircle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DADB0
+  Client::UI::Addon_Auto_ConfigCharacterOperationGeneral:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DAFF0
+  Client::UI::Addon_Auto_ConfigCharacterOperationMouse:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DB230
+  Client::UI::Addon_Auto_ConfigCharacterOperationTarget:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DB470
+  Client::UI::Addon_Auto_ConfigCharacterHotBarDisplay:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DB6B0
+  Client::UI::Addon_Auto_ConfigCharacterHotBarCommon:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DB8F0
+  Client::UI::Addon_Auto_ConfigCharacterHotBarXHB:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DBB30
+  Client::UI::Addon_Auto_ConfigCharacterHotBarXHBCustom:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DBD78
+  Client::UI::Addon_Auto_ConfigCharacterNamePlateMyself:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DBFB8
+  Client::UI::Addon_Auto_ConfigCharacterNamePlateOthers:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DC1F8
+  Client::UI::Addon_Auto_ConfigCharacterNamePlateNpc:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DC438
+  Client::UI::Addon_Auto_ConfigCharacterNamePlateGeneral:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DC678
+  Client::UI::Addon_Auto_ConfigCharacterHudGeneral:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DC8C0
+  Client::UI::Addon_Auto_ConfigCharacterHudPartyList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DCB08
+  Client::UI::Addon_Auto_ConfigCharacterHudHud:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DCD50
+  Client::UI::Addon_Auto_ConfigCharacterItem:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DCF90
+  Client::UI::Addon_Auto_ConfigPadCustomize:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD2D8
+  Client::UI::Addon_Auto_ChatConfig:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD708
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D04
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D04
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D04
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D04
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DD920
+  Client::UI::Addon_Auto_Logo_ja:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D04
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDB38
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C888
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C89C
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C8B0
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D64
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDB38
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C888
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C89C
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C8B0
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D64
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDB38
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C888
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C89C
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C8B0
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D64
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDB38
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C888
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C89C
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141B0C8B0
+  Client::UI::Addon_Auto_Title_LogoFT:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142028D64
+  Client::UI::Addon_Auto_Title_Menu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDD50
+  Client::UI::Addon_Auto_Title_Revision:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DDF68
+  Client::UI::Addon_Auto_Title_Rights:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DE180
+  Client::UI::Addon_Auto_Warning:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DE5B0
+  Client::UI::Addon_Auto_Title_DataCenter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DE7E0
+  Client::UI::Addon_Auto_Title_Worldmap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DEA08
+  Client::UI::Addon_Auto_Title_WorldmapBg:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DEC20
+  Client::UI::Addon_Auto_Title_Worldmap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DEE38
+  Client::UI::Addon_Auto_Title_WorldmapBg:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DF050
+  Client::UI::Addon_Auto_Title_Connect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DF288
+  Client::UI::Addon_Auto_Title_MovieSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DF4A0
+  Client::UI::Addon_Auto_MovieSubtitle_Opening_Credit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DF6B8
+  Client::UI::Addon_Auto_CharaSelect_ListMenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DFD00
+  Client::UI::Addon_Auto_CharaSelect_Detail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417DFF18
+  Client::UI::Addon_Auto_CharaSelect_Info:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0130
+  Client::UI::Addon_Auto_CharaSelect_Warning:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0348
+  Client::UI::Addon_Auto_CharaSelect_NameInput:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0560
+  Client::UI::Addon_Auto_CharaSelect_Legacy:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0778
+  Client::UI::Addon_Auto_CharaSelect_Return:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0990
+  Client::UI::Addon_Auto_CharaSelect_Remain:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0BA8
+  Client::UI::Addon_Auto_ConfigBackUpSystemMainmenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0DC0
+  Client::UI::Addon_Auto_ConfigBackUpSystemLoad:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E0FD8
+  Client::UI::Addon_Auto_ConfigBackUpSystemRestore:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E11F0
+  Client::UI::Addon_Auto_ConfigBackUpCharacterMainmenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1408
+  Client::UI::Addon_Auto_ConfigBackUpCharacterLoad:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1620
+  Client::UI::Addon_Auto_ConfigBackUpCharacterDownloadSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1838
+  Client::UI::Addon_Auto_ConfigBackUpCharacterRestore:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1A50
+  Client::UI::Addon_Auto_CharaSelect_Shadow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1C68
+  Client::UI::Addon_Auto_CharaSelect_Title:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E1E80
+  Client::UI::Addon_Auto_CharaMake_CharName:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E22B8
+  Client::UI::Addon_Auto_CharaSelect_WKT_Progress:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E24D8
+  Client::UI::Addon_Auto_CharaSelect_WKT_YesNo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E26F0
+  Client::UI::Addon_Auto_CharaSelect_WKT_Info:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E2908
+  Client::UI::Addon_Auto_CharaMake_Progress:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E2D38
+  Client::UI::Addon_Auto_CharaMake_ProgressSub:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E2F50
+  Client::UI::Addon_Auto_CharaMake_ProgressSub:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3170
+  Client::UI::Addon_Auto_CharaMake_Feature:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3408
+  Client::UI::Addon_Auto_CharaMake_ClassSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3648
+  Client::UI::Addon_Auto_CharaMake_ClassSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3868
+  Client::UI::Addon_Auto_CharaMake_BirthDay:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3A88
+  Client::UI::Addon_Auto_CharaMake_Guardian:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3CA8
+  Client::UI::Addon_Auto_CharaMake_WorldServer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E3EC8
+  Client::UI::Addon_Auto_CharaMake_Help:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E40E8
+  Client::UI::Addon_Auto_CharaMake_BgSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4300
+  Client::UI::Addon_Auto_CharaMake_Pose:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4518
+  Client::UI::Addon_Auto_CharaMake_City:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4730
+  Client::UI::Addon_Auto_CharaMake_Return:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4948
+  Client::UI::Addon_Auto_CharaMake_Notice:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4B60
+  Client::UI::Addon_Auto_CharaMake_Title:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4D78
+  Client::UI::Addon_Auto_CharaMake_Shadow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E4F90
+  Client::UI::Addon_Auto_CharaMake_SelectYesNo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E53C0
+  Client::UI::Addon_Auto_CharaMake_DataImport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E6398
+  Client::UI::Addon_Auto_CharaMake_DataExport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E65B8
+  Client::UI::Addon_Auto_CharaMake_DataInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E67D8
+  Client::UI::Addon_Auto_CharaMake_DataImportDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E69F0
+  Client::UI::Addon_Auto_CharaMake_DataImportDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E6C08
+  Client::UI::Addon_Auto_CharaMake_Feature_Option2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E7258
+  Client::UI::Addon_Auto_CharaMake_Feature_Option3:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E7478
+  Client::UI::Addon_Auto_CharaMake_Feature_Option4:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E7698
+  Client::UI::Addon_Auto_CharaMake_Feature_Option5:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E78B8
+  Client::UI::Addon_Auto_CharaMake_Feature_Option6:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E7AD8
+  Client::UI::Addon_Auto_CharaMake_Feature_Option12:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E7CF8
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_FacePaint:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E8140
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_FaceType:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E8368
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Hair:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E8590
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Hair:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E87B8
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Tail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E89E0
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Feature:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E8C08
+  Client::UI::Addon_Auto_CharaMake_Feature_ListIcon_Tatoo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E8E38
+  Client::UI::Addon_Auto_CharaMake_Feature_Color_L:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141681BA8
+  Client::UI::Addon_Auto_CharaMake_Feature_Color_FacePaint:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E9298
+  Client::UI::Addon_Auto_CharaMake_Feature_Color_Lip:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E94C8
+  Client::UI::Addon_Auto_CharaMake_Feature_Color_Hair:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E9940
+  Client::UI::Addon_Auto_CharaMake_Feature_Color_Eye:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E9B88
+  Client::UI::Addon_Auto_CharaMake_Feature_Slider:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E9DD0
+  Client::UI::Addon_Auto_TitleLicenseViewer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417E9FE8
+  Client::UI::Addon_Auto_SupportDesk:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EA200
+  Client::UI::Addon_Auto_SupportDeskList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EA428
+  Client::UI::Addon_Auto_SupportDeskEditor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EA640
+  Client::UI::Addon_Auto_SupportDeskViewer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EA858
+  Client::UI::Addon_Auto_WebLink:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EAA70
+  Client::UI::Addon_Auto_WebLauncher:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EAC88
+  Client::UI::Addon_Auto_WebGuidance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417EAEA0
+  Client::UI::Addon_Auto_Journal:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F1C78
+  Client::UI::Addon_Auto_JournalAccept:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F20A8
+  Client::UI::Addon_Auto_ContentsFinderMenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F24D8
+  Client::UI::Addon_Auto_GuildLeveDifficulty:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F2B98
+  Client::UI::Addon_Auto_PVPColosseumResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F2DB0
+  Client::UI::Addon_Auto_PVPFrontlineResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F2FC8
+  Client::UI::Addon_Auto_PVPFrontlineResultDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F31E0
+  Client::UI::Addon_Auto_PVPSimulationResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F33F8
+  Client::UI::Addon_Auto_PVPSimulationHeader:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F3610
+  Client::UI::Addon_Auto_PVPSimulationDisplay:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F3828
+  Client::UI::Addon_Auto_PVPSimulationAlliance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F3A40
+  Client::UI::Addon_Auto_PVPSimulationMachineSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F3C58
+  Client::UI::Addon_Auto_PVPSimulationHeader2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F3E70
+  Client::UI::Addon_Auto_PVPSimulationDisplay2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F4088
+  Client::UI::Addon_Auto_PVPScreenInformationHotBar:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F42A0
+  Client::UI::Addon_Auto_Inventory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F4968
+  Client::UI::Addon_Auto_InventoryGrid:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F4BC0
+  Client::UI::Addon_Auto_InventoryGridCrystal:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F4DD8
+  Client::UI::Addon_Auto_InventoryLarge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F4FF0
+  Client::UI::Addon_Auto_InventoryGrid:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5248
+  Client::UI::Addon_Auto_InventoryEvent:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5460
+  Client::UI::Addon_Auto_InventoryExpansion:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F56B8
+  Client::UI::Addon_Auto_RetainerSell:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5910
+  Client::UI::Addon_Auto_RetainerSellList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5B28
+  Client::UI::Addon_Auto_RetainerHistory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5D40
+  Client::UI::Addon_Auto_RetainerInventory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F5F58
+  Client::UI::Addon_Auto_RetainerInventoryGrid:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F61B0
+  Client::UI::Addon_Auto_RetainerInventoryGridCrystal:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F63C8
+  Client::UI::Addon_Auto_RetainerInventoryLarge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F65E0
+  Client::UI::Addon_Auto_Character:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F6838
+  Client::UI::Addon_Auto_CharacterStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F6A50
+  Client::UI::Addon_Auto_RetainerCharacter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F6C68
+  Client::UI::Addon_Auto_RetainerList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F74C8
+  Client::UI::Addon_Auto_RetainerSort:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F76E0
+  Client::UI::Addon_Auto_MonsterNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F7918
+  Client::UI::Addon_Auto_GatheringNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F7B70
+  Client::UI::Addon_Auto_RecipeNoteBookFilterSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F7FC0
+  Client::UI::Addon_Auto_RecipeTree:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F81D8
+  Client::UI::Addon_Auto_RecipeMaterialList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8410
+  Client::UI::Addon_Auto_FishingNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8660
+  Client::UI::Addon_Auto_FishGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8890
+  Client::UI::Addon_Auto_FishRecords:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8AA8
+  Client::UI::Addon_Auto_ContentsNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8CE0
+  Client::UI::Addon_Auto_RelicNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F8EF8
+  Client::UI::Addon_Auto_AdventureNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F9110
+  Client::UI::Addon_Auto_ArmouryNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F9328
+  Client::UI::Addon_Auto_MinionNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F97F0
+  Client::UI::Addon_Auto_MountNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F9AA0
+  Client::UI::Addon_Auto_MinionNotebookYKW:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417F9D50
+  Client::UI::Addon_Auto_AozNoteBookFilterSettings:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FA4C0
+  Client::UI::Addon_Auto_AozActiveSetInputString:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FA6D8
+  Client::UI::Addon_Auto_OrnamentNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FA8F0
+  Client::UI::Addon_Auto_ContentsFinderSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FAD98
+  Client::UI::Addon_Auto_ContentsFinderStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FB1E0
+  Client::UI::Addon_Auto_ContentsFinderConfirm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FB3F8
+  Client::UI::Addon_Auto_ContentsFinderReady:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FB610
+  Client::UI::Addon_Auto_ContentsFinderSupply:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FB828
+  Client::UI::Addon_Auto_RaidFinderHelp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FBC98
+  Client::UI::Addon_Auto_Materialize:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FBEB0
+  Client::UI::Addon_Auto_MateriaRetrieveDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FC930
+  Client::UI::Addon_Auto_MateriaRetrieveDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142035928
+  Client::UI::Addon_Auto_MateriaParameter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FCB50
+  Client::UI::Addon_Auto_MiragePrism:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FCD88
+  Client::UI::Addon_Auto_MiragePrismExecute:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FCFA0
+  Client::UI::Addon_Auto_MiragePrismExecute:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FD1B8
+  Client::UI::Addon_Auto_MiragePrismRemove:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FD3D0
+  Client::UI::Addon_Auto_MiragePrismBox:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FD5E8
+  Client::UI::Addon_Auto_MiragePrismCrystalize:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FD8F8
+  Client::UI::Addon_Auto_MiragePrismBoxItemDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FDB28
+  Client::UI::Addon_Auto_MiragePrismPlateDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FDFA0
+  Client::UI::Addon_Auto_SatisfactionSupplyChangeMiragePrism:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FE1B8
+  Client::UI::Addon_Auto_SatisfactionSupplyMiragePrism:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FE3D0
+  Client::UI::Addon_Auto_Mobhunt4:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FE808
+  Client::UI::Addon_Auto_Mobhunt3:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FEA38
+  Client::UI::Addon_Auto_Mobhunt2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FEC68
+  Client::UI::Addon_Auto_Mobhunt:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FEE98
+  Client::UI::Addon_Auto_ColorantEquipmentSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FF0C8
+  Client::UI::Addon_Auto_ColorantColoringSelector:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FF2E0
+  Client::UI::Addon_Auto_GrandCompanyExchange:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FF4F8
+  Client::UI::Addon_Auto_GrandCompanyRank:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FF760
+  Client::UI::Addon_Auto_GrandCompanyRankUp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FF988
+  Client::UI::Addon_Auto_GrandCompanySupplyList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1417FFBA0
+  Client::UI::Addon_Auto_Negotiation:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141800210
+  Client::UI::Addon_Auto_Puzzle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141800448
+  Client::UI::Addon_Auto_Concentration:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141800680
+  Client::UI::Addon_Auto_Jigsaw:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141800B60
+  Client::UI::Addon_Auto_JigsawEvent:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141800E80
+  Client::UI::Addon_Auto_RoadStone:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141801380
+  Client::UI::Addon_Auto_RoadStone:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142037C74
+  Client::UI::Addon_Auto_RoadStoneResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418015B8
+  Client::UI::Addon_Auto_MiniDungeon:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418017D0
+  Client::UI::Addon_Auto_MiniDungeonAnswer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141801A08
+  Client::UI::Addon_Auto_MiniDungeonResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141801C20
+  Client::UI::Addon_Auto_RhythmAction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141801EF8
+  Client::UI::Addon_Auto_RhythmActionResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802110
+  Client::UI::Addon_Auto_RhythmActionStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802328
+  Client::UI::Addon_Auto_Shop:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802540
+  Client::UI::Addon_Auto_ShopExchangeItem:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802778
+  Client::UI::Addon_Auto_ShopExchangeCurrency:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802990
+  Client::UI::Addon_Auto_ShopExchangeCurrencyDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802BA8
+  Client::UI::Addon_Auto_ShopExchangeItemDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802DC0
+  Client::UI::Addon_Auto_FreeShop:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141802FD8
+  Client::UI::Addon_Auto_TalkSubtitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418031F0
+  Client::UI::Addon_Auto_TalkSpeed:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141803620
+  Client::UI::Addon_Auto_EventSkip:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141803838
+  Client::UI::Addon_Auto_HowTo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141803A50
+  Client::UI::Addon_Auto_HowToNotice:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141803C68
+  Client::UI::Addon_Auto_JobHudNotice:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141803E80
+  Client::UI::Addon_Auto_Macro:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141804550
+  Client::UI::Addon_Auto_MacroTextCommandList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141804768
+  Client::UI::Addon_Auto_ItemDetailCompare:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418052C0
+  Client::UI::Addon_Auto_ItemFinder:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418054F8
+  Client::UI::Addon_Auto_CharacterProfile:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141805710
+  Client::UI::Addon_Auto_CharacterClass:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141805928
+  Client::UI::Addon_Auto_CharacterRepute:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141805B40
+  Client::UI::Addon_Auto_CharacterSalvage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141805D58
+  Client::UI::Addon_Auto_CharacterTitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141805F70
+  Client::UI::Addon_Auto_CharacterInspect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141806188
+  Client::UI::Addon_Auto_Currency:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418063A0
+  Client::UI::Addon_Auto_PvpActionJob:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141806E88
+  Client::UI::Addon_Auto_PvpColosseum:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418070C0
+  Client::UI::Addon_Auto_PvpFrontLine:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418072F8
+  Client::UI::Addon_Auto_PvpActionAdditional:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807510
+  Client::UI::Addon_Auto_PvpActionTraits:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807728
+  Client::UI::Addon_Auto_PvpActionQuickChat:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807940
+  Client::UI::Addon_Auto_PvpSimulation:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807B78
+  Client::UI::Addon_Auto_PVPPresetView:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807D90
+  Client::UI::Addon_Auto_PVPCalendar:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141807FA8
+  Client::UI::Addon_Auto_PvPCharacter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418081C0
+  Client::UI::Addon_Auto_VoteMvp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418083D8
+  Client::UI::Addon_Auto_VoteKick:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418085F0
+  Client::UI::Addon_Auto_VoteKickDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141808808
+  Client::UI::Addon_Auto_VoteTreasure:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141808A20
+  Client::UI::Addon_Auto_GearSetList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141808C38
+  Client::UI::Addon_Auto_GearSetView:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141808E50
+  Client::UI::Addon_Auto_GearSetRegistered:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809068
+  Client::UI::Addon_Auto_GearSetPreview:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809280
+  Client::UI::Addon_Auto_Salvage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809498
+  Client::UI::Addon_Auto_SalvageAuto:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418096B0
+  Client::UI::Addon_Auto_SalvageResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809AE0
+  Client::UI::Addon_Auto_Purify:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809CF8
+  Client::UI::Addon_Auto_PurifyDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141809F10
+  Client::UI::Addon_Auto_PurifyResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180A128
+  Client::UI::Addon_Auto_Buddy:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180A340
+  Client::UI::Addon_Auto_ActionMenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180A558
+  Client::UI::Addon_Auto_BuddyAction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180A770
+  Client::UI::Addon_Auto_BuddyAppearance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180A988
+  Client::UI::Addon_Auto_BuddySkill:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180ABA0
+  Client::UI::Addon_Auto_BuddyEquipList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180ADB8
+  Client::UI::Addon_Auto_TutorialContents:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180AFD0
+  Client::UI::Addon_Auto_Synthesis:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180BF58
+  Client::UI::Addon_Auto_SynthesisSimple:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180C170
+  Client::UI::Addon_Auto_SynthesisSimpleDialog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180C388
+  Client::UI::Addon_Auto_FateProgress:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180C9D0
+  Client::UI::Addon_Auto_FateReward:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180CBE8
+  Client::UI::Addon_Auto_Repair:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180CE00
+  Client::UI::Addon_Auto_NeedGreedTargeting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180D250
+  Client::UI::Addon_Auto_NeedGreed:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180D468
+  Client::UI::Addon_Auto_ArmouryBoard:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180D680
+  Client::UI::Addon_Auto_Achievement:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180D8B8
+  Client::UI::Addon_Auto_AchievementInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180DAD0
+  Client::UI::Addon_Auto_AchievementSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180DCE8
+  Client::UI::Addon_Auto_HowToList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180DF20
+  Client::UI::Addon_Auto_CabinetStore:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180E138
+  Client::UI::Addon_Auto_CabinetWithdraw:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180E350
+  Client::UI::Addon_Auto_LegacyItemStorage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180E568
+  Client::UI::Addon_Auto_Trade:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180E780
+  Client::UI::Addon_Auto_ActionCrossEditor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180E998
+  Client::UI::Addon_Auto_ContentsInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180EBB0
+  Client::UI::Addon_Auto_ContentsInfoDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180EDC8
+  Client::UI::Addon_Auto_PadMouseMode:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180F208
+  Client::UI::Addon_Auto_BeastTribeSupplyList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180F420
+  Client::UI::Addon_Auto_Bank:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180F638
+  Client::UI::Addon_Auto_BuddyInspect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180F850
+  Client::UI::Addon_Auto_RecommendList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180FA68
+  Client::UI::Addon_Auto_TextFishingNote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180FC80
+  Client::UI::Addon_Auto_CutScene:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14180FEB8
+  Client::UI::Addon_Auto_CutSceneDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418100D0
+  Client::UI::Addon_Auto_TreasureMap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418102E8
+  Client::UI::Addon_Auto_Emote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810520
+  Client::UI::Addon_Auto_EmoteStatusHelp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810738
+  Client::UI::Addon_Auto_FittingRoom:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810950
+  Client::UI::Addon_Auto_TradeMultiple:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810BA0
+  Client::UI::Addon_Auto_RelicMagicite:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810DB8
+  Client::UI::Addon_Auto_RelicGlass:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141810FD0
+  Client::UI::Addon_Auto_RelicSphereScroll:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418111E8
+  Client::UI::Addon_Auto_RelicSphereUpgrade:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141811400
+  Client::UI::Addon_Auto_TeleportHousingFriend:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141811850
+  Client::UI::Addon_Auto_WeatherReport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141811A88
+  Client::UI::Addon_Auto_Wedding:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141811CA0
+  Client::UI::Addon_Auto_WeddingNotification:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141811EC8
+  Client::UI::Addon_Auto_Tips:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418120E0
+  Client::UI::Addon_Auto_FlyingPermission:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418122F8
+  Client::UI::Addon_Auto_SubCommandSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812510
+  Client::UI::Addon_Auto_CharacterBestEquipment:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812728
+  Client::UI::Addon_Auto_Relic2GrowthFragment:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812940
+  Client::UI::Addon_Auto_Relic2Growth:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812B58
+  Client::UI::Addon_Auto_Relic2Glass:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812D70
+  Client::UI::Addon_Auto_QteStreak:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141812F88
+  Client::UI::Addon_Auto_QteScreenInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418131A0
+  Client::UI::Addon_Auto_QteButton:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141813608
+  Client::UI::Addon_Auto_QteButtonMashing:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141813858
+  Client::UI::Addon_Auto_QteButtonKeep:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141813AA8
+  Client::UI::Addon_Auto_QteButtonKeep:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141813D00
+  Client::UI::Addon_Auto_PicturePreview:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141813F70
+  Client::UI::Addon_Auto_SatisfactionSupply:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141814188
+  Client::UI::Addon_Auto_SatisfactionSupplyResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418143A0
+  Client::UI::Addon_Auto_Mount_speed:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418145D8
+  Client::UI::Addon_Auto_FishHarpoonTip:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418147F0
+  Client::UI::Addon_Auto_PVPWelcomeDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141814A08
+  Client::UI::Addon_Auto_TreasureChallenge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141814C20
+  Client::UI::Addon_Auto_UserPolicyPerformance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141814E38
+  Client::UI::Addon_Auto_UserPolicyPerformance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142042480
+  Client::UI::Addon_Auto_BuddyInventory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141815050
+  Client::UI::Addon_Auto_Description:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141815288
+  Client::UI::Addon_Auto_DescriptionYTC:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418154C0
+  Client::UI::Addon_Auto_DescriptionYTC:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1420428D0
+  Client::UI::Addon_Auto_Alarm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418156D8
+  Client::UI::Addon_Auto_AlarmSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418158F0
+  Client::UI::Addon_Auto_ContentsFinderStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141815B08
+  Client::UI::Addon_Auto_WorkshopSupply:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141815D20
+  Client::UI::Addon_Auto_WorkshopSupplyResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141815F38
+  Client::UI::Addon_Auto_DescriptionMini:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816150
+  Client::UI::Addon_Auto_QuestRedoUI:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816368
+  Client::UI::Addon_Auto_QuestRedoUIHUD:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816580
+  Client::UI::Addon_Auto_SelectRetry:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816798
+  Client::UI::Addon_Auto_StorageCheck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418169B0
+  Client::UI::Addon_Auto_SynthesisSimulator:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816BC8
+  Client::UI::Addon_Auto_FieldMarker:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141816DE0
+  Client::UI::Addon_Auto_RecipeProductList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817018
+  Client::UI::Addon_Auto_InclusionShop:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817250
+  Client::UI::Addon_Auto_SupplyCollectableItems:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817488
+  Client::UI::Addon_Auto_TourismMenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418176A0
+  Client::UI::Addon_Auto_Alliance48:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418178B8
+  Client::UI::Addon_Auto_SynthesisCondition:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817AD0
+  Client::UI::Addon_Auto_FishRelease:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817CE8
+  Client::UI::Addon_Auto_SkyIsland:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141817F20
+  Client::UI::Addon_Auto_SkyIslandSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818138
+  Client::UI::Addon_Auto_SkyIslandResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818350
+  Client::UI::Addon_Auto_SkyIslandSpoilTrade:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818568
+  Client::UI::Addon_Auto_SkyIslandResult2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818780
+  Client::UI::Addon_Auto_BeginnersRoomMainWindow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818998
+  Client::UI::Addon_Auto_BeginnersRoomCompletedTraining:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818BB0
+  Client::UI::Addon_Auto_DpsChallenge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141818DE8
+  Client::UI::Addon_Auto_Orchestrion:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819020
+  Client::UI::Addon_Auto_Orchestrion:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819248
+  Client::UI::Addon_Auto_OrchestrionPlayList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819470
+  Client::UI::Addon_Auto_OrchestrionPlayListEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819698
+  Client::UI::Addon_Auto_OrchestrionPlayListMusicSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418198B0
+  Client::UI::Addon_Auto_GcArmyMemberList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819AD8
+  Client::UI::Addon_Auto_GcArmyMemberProfile:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819CF0
+  Client::UI::Addon_Auto_GcArmyChangeClass:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141819F08
+  Client::UI::Addon_Auto_GcArmyChangeExpeditionTrait:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181A120
+  Client::UI::Addon_Auto_GcArmyChangeTactic:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181A338
+  Client::UI::Addon_Auto_GcArmyChangeMiragePrism:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181A550
+  Client::UI::Addon_Auto_GcArmyMiragePrism:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181A788
+  Client::UI::Addon_Auto_GcArmyMiragePrismDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181A9B8
+  Client::UI::Addon_Auto_GcArmyExpeditionSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181ABD0
+  Client::UI::Addon_Auto_GcArmyExpeditionResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181ADE8
+  Client::UI::Addon_Auto_GcArmyTrainingList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181B000
+  Client::UI::Addon_Auto_GcArmyCaptureSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181B228
+  Client::UI::Addon_Auto_GcArmyOrder:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181B440
+  Client::UI::Addon_Auto_DeepDungeonInspect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181B658
+  Client::UI::Addon_Auto_DeepDungeonNaviMap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181B870
+  Client::UI::Addon_Auto_DeepDungeonSaveData:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181BCD8
+  Client::UI::Addon_Auto_DeepDungeonTopMenu:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181BEF0
+  Client::UI::Addon_Auto_DeepDungeonScoreList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181C108
+  Client::UI::Addon_Auto_DeepDungeonResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181C320
+  Client::UI::Addon_Auto_GroupPoseCameraSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181C780
+  Client::UI::Addon_Auto_IdlingCameraSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181C9E0
+  Client::UI::Addon_Auto_GroupPoseGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181CC28
+  Client::UI::Addon_Auto_GroupPoseStampImage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181D058
+  Client::UI::Addon_Auto_GroupPoseStampImage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142045960
+  Client::UI::Addon_Auto_GroupPoseStampEditor:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181D270
+  Client::UI::Addon_Auto_PvPDuelRequest:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181D498
+  Client::UI::Addon_Auto_PvPColosseumHeader:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181D6B0
+  Client::UI::Addon_Auto_PvPColosseumPartyList4:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181D8D0
+  Client::UI::Addon_Auto_PVPFrontlineGauge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181DAE8
+  Client::UI::Addon_Auto_PvPSpectatorCameraList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181DD00
+  Client::UI::Addon_Auto_PvPSpectatorList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181DF18
+  Client::UI::Addon_Auto_Gacha:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181E130
+  Client::UI::Addon_Auto_ItemInspection:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181E560
+  Client::UI::Addon_Auto_SnipeHud:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181E9B0
+  Client::UI::Addon_Auto_SnipeHudBg:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181EBC8
+  Client::UI::Addon_Auto_SnipeToDo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181EDE0
+  Client::UI::Addon_Auto_ImageSnipeTitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181EFF8
+  Client::UI::Addon_Auto_ScenarioTreeDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181F210
+  Client::UI::Addon_Auto_ScenarioTree:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181F428
+  Client::UI::Addon_Auto_EurekaElementalHud:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181F640
+  Client::UI::Addon_Auto_EurekaElementalEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181F888
+  Client::UI::Addon_Auto_EurekaChainText:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181FB60
+  Client::UI::Addon_Auto_EurekaLogosAetherList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181FD78
+  Client::UI::Addon_Auto_EurekaLogosShardList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14181FF90
+  Client::UI::Addon_Auto_EurekaLogosShardSynthesis:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418201A8
+  Client::UI::Addon_Auto_EurekaLogosShardSynthesis:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14204701C
+  Client::UI::Addon_Auto_EurekaLogosActionNote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418203C0
+  Client::UI::Addon_Auto_EurekaLogosActionNote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14204725C
+  Client::UI::Addon_Auto_EurekaWeaponUpgrade:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418205D8
+  Client::UI::Addon_Auto_EurekaWeaponUpgradeDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418207F0
+  Client::UI::Addon_Auto_ContentsReplayPlayer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141820A08
+  Client::UI::Addon_Auto_ContentsReplaySetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141820C20
+  Client::UI::Addon_Auto_Performance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141821060
+  Client::UI::Addon_Auto_PerformanceWide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418213D8
+  Client::UI::Addon_Auto_PerformanceKeybind:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141821848
+  Client::UI::Addon_Auto_PerformanceGamePadGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141821D40
+  Client::UI::Addon_Auto_PerformanceMetronome:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418220E0
+  Client::UI::Addon_Auto_PerformanceMetronomeSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141822308
+  Client::UI::Addon_Auto_PerformancePlayGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141822520
+  Client::UI::Addon_Auto_PerformancePlayGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142047B2C
+  Client::UI::Addon_Auto_PerformancePlayGuideSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418227A0
+  Client::UI::Addon_Auto_PerformanceReadyCheck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418229B8
+  Client::UI::Addon_Auto_PerformanceReadyCheckReceive:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141822BD0
+  Client::UI::Addon_Auto_PerformanceToneChange:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141822DE8
+  Client::UI::Addon_Auto_Reconstruction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823000
+  Client::UI::Addon_Auto_ReconstructionBuyBack:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823218
+  Client::UI::Addon_Auto_MerchantEquipSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823430
+  Client::UI::Addon_Auto_MerchantSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823648
+  Client::UI::Addon_Auto_MerchantShop:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823860
+  Client::UI::Addon_Auto_AozBriefing:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823A78
+  Client::UI::Addon_Auto_AozContentsResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823C90
+  Client::UI::Addon_Auto_AozBonusList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141823EA8
+  Client::UI::Addon_Auto_SelectStringCutScene:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418240C0
+  Client::UI::Addon_Auto_DawnParty:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418242D8
+  Client::UI::Addon_Auto_DawnPartyHelp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418244F0
+  Client::UI::Addon_Auto_MentorCondition:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141824708
+  Client::UI::Addon_Auto_MentorCertification:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141824930
+  Client::UI::Addon_Auto_MentorRenewDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141824B48
+  Client::UI::Addon_Auto_HWDInfoBoard:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141824D80
+  Client::UI::Addon_Auto_HWDLottery:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141824F98
+  Client::UI::Addon_Auto_HWDLottery:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142048A20
+  Client::UI::Addon_Auto_HWDSupply:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418252D0
+  Client::UI::Addon_Auto_AetherGauge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418254E8
+  Client::UI::Addon_Auto_HWDGathererInspection:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141825700
+  Client::UI::Addon_Auto_HWDGathererInspectionTargetList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141825918
+  Client::UI::Addon_Auto_HWDScoreList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141825B30
+  Client::UI::Addon_Auto_RecipeNotebookInspectionList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141825D48
+  Client::UI::Addon_Auto_HWDMonument:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141825F60
+  Client::UI::Addon_Auto_Invaluable:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141826178
+  Client::UI::Addon_Auto_WeeklyBingoBonusInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141826618
+  Client::UI::Addon_Auto_WeeklyBingoResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141826830
+  Client::UI::Addon_Auto_WeeklyPuzzleResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141826C60
+  Client::UI::Addon_Auto_CruisingTimeTable:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141826E78
+  Client::UI::Addon_Auto_CruisingInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141827090
+  Client::UI::Addon_Auto_CruisingCreel:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418272C8
+  Client::UI::Addon_Auto_CruisingResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418274E0
+  Client::UI::Addon_Auto_CruisingResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14204A43C
+  Client::UI::Addon_Auto_ToDoCruising:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418276F8
+  Client::UI::Addon_Auto_MYCCharacterNote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141827910
+  Client::UI::Addon_Auto_MYCInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141827BB8
+  Client::UI::Addon_Auto_MYCBattleAreaInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141827DD0
+  Client::UI::Addon_Auto_MYCItemBag:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141828278
+  Client::UI::Addon_Auto_MYCItemMySet:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141828490
+  Client::UI::Addon_Auto_MYCActionSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418286A8
+  Client::UI::Addon_Auto_MYCDuelRequest:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418288C0
+  Client::UI::Addon_Auto_MYCDuelRequestDialogue:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141828AD8
+  Client::UI::Addon_Auto_MYCRelicGrowth:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141828CF0
+  Client::UI::Addon_Auto_BKJInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418295B0
+  Client::UI::Addon_Auto_BKJSupplyList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418297C8
+  Client::UI::Addon_Auto_BKJPouch:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418299E0
+  Client::UI::Addon_Auto_TheStarlightCelebration2020:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141829BF8
+  Client::UI::Addon_Auto_TheStarlightCelebration2020:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14204B3D8
+  Client::UI::Addon_Auto_TargetCursorGrand:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182C768
+  Client::UI::Addon_Auto_AreaText:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182D008
+  Client::UI::Addon_Auto_GetAction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182D258
+  Client::UI::Addon_Auto_GrandCompany0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182D6F8
+  Client::UI::Addon_Auto_GrandCompany1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182D948
+  Client::UI::Addon_Auto_GrandCompany2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182DB98
+  Client::UI::Addon_Auto_Image:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182DDE8
+  Client::UI::Addon_Auto_ImageBossName:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182E038
+  Client::UI::Addon_Auto_ImageQuestAcceptedNIKU:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182E4E0
+  Client::UI::Addon_Auto_ImageQuestCompleteNIKU:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182E738
+  Client::UI::Addon_Auto_ImageQuestFailedNIKU:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182E990
+  Client::UI::Addon_Auto_ImageActionLearnedAOZ:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182EBE8
+  Client::UI::Addon_Auto_ImageStreakBKC:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182EE38
+  Client::UI::Addon_Auto_ImageEndingMessage210:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182F088
+  Client::UI::Addon_Auto_ImageNextPreview:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182F2D8
+  Client::UI::Addon_Auto_ImageLocationTitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182F778
+  Client::UI::Addon_Auto_ImageLocationTitleShort:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182F9C8
+  Client::UI::Addon_Auto_LevelUp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182FC18
+  Client::UI::Addon_Auto_Text0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14182FE68
+  Client::UI::Addon_Auto_TextChain:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418300B8
+  Client::UI::Addon_Auto_TextClassChange:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141830308
+  Client::UI::Addon_Auto_TextError:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141830558
+  Client::UI::Addon_Auto_TextMonsterNote0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141830A08
+  Client::UI::Addon_Auto_TextMonsterNote1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141830C68
+  Client::UI::Addon_Auto_TextMonsterNote2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141830EC8
+  Client::UI::Addon_Auto_Text1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831128
+  Client::UI::Addon_Auto_Text2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831378
+  Client::UI::Addon_Auto_TextAchievementUnlocked:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418315C8
+  Client::UI::Addon_Auto_TextContentsNoteBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831818
+  Client::UI::Addon_Auto_TextRelicAtma:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831A68
+  Client::UI::Addon_Auto_Image2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831CB8
+  Client::UI::Addon_Auto_LevelUp2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141831F08
+  Client::UI::Addon_Auto_ImageSystem:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141832158
+  Client::UI::Addon_Auto_Streak:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418323A8
+  Client::UI::Addon_Auto_Streak:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418325F8
+  Client::UI::Addon_Auto_PVPScreenInformation:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141832848
+  Client::UI::Addon_Auto_PvPRankRatingFunction:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141832D00
+  Client::UI::Addon_Auto_PvPRankPromotionQualifier:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141832F68
+  Client::UI::Addon_Auto_ScreenInfo_RaceChocoboLogo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141833420
+  Client::UI::Addon_Auto_ScreenInfo_RaceChocobo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141833670
+  Client::UI::Addon_Auto_ScreenInfo_RaceChocobo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14204FE90
+  Client::UI::Addon_Auto_CreditEnd:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418338C0
+  Client::UI::Addon_Auto_CreditEnd2:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141833B10
+  Client::UI::Addon_Auto_LovmVersus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141833D60
+  Client::UI::Addon_Auto_LovmHudCutIn:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141833FB0
+  Client::UI::Addon_Auto_Image:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141834200
+  Client::UI::Addon_Auto_ImageGenericTitle:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141834450
+  Client::UI::Addon_Auto_LevelDown:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418346A0
+  Client::UI::Addon_Auto_Image:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418348F0
+  Client::UI::Addon_Auto_Status:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418358A0
+  Client::UI::Addon_Auto_StatusCustom:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141835AD0
+  Client::UI::Addon_Auto_NotificationItem:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141836398
+  Client::UI::Addon_Auto_ActionBar:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418375E8
+  Client::UI::Addon_Auto_ToDoQuest:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141837F88
+  Client::UI::Addon_Auto_ToDoContents:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418381F0
+  Client::UI::Addon_Auto_ActionBarHorizontal:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418386B0
+  Client::UI::Addon_Auto_ActionBarVertical:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141838998
+  Client::UI::Addon_Auto_ContentGauge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183A0A0
+  Client::UI::Addon_Auto_JobHudAST0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183A610
+  Client::UI::Addon_Auto_JobHudBLM0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183A8F0
+  Client::UI::Addon_Auto_JobHudBRD0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183ABD0
+  Client::UI::Addon_Auto_JobHudDRK0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183AEB0
+  Client::UI::Addon_Auto_JobHudDRK1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183B190
+  Client::UI::Addon_Auto_JobHudDRG0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183B470
+  Client::UI::Addon_Auto_JobHudMCH0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183B750
+  Client::UI::Addon_Auto_JobHudMNK1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183BA30
+  Client::UI::Addon_Auto_JobHudNIN0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183BD10
+  Client::UI::Addon_Auto_JobHudNIN1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183BFF0
+  Client::UI::Addon_Auto_JobHudPLD0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183C2D0
+  Client::UI::Addon_Auto_JobHudRDM0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183C5B0
+  Client::UI::Addon_Auto_JobHudSAM0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183C890
+  Client::UI::Addon_Auto_JobHudSAM1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183CB70
+  Client::UI::Addon_Auto_JobHudSCH0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183CE90
+  Client::UI::Addon_Auto_JobHudSCH1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183D170
+  Client::UI::Addon_Auto_JobHudSMN0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183D450
+  Client::UI::Addon_Auto_JobHudSMN1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183D730
+  Client::UI::Addon_Auto_JobHudWAR0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183DA10
+  Client::UI::Addon_Auto_JobHudWHM0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183DCF0
+  Client::UI::Addon_Auto_JobHudGNB0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183DFD0
+  Client::UI::Addon_Auto_JobHudDNC0:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183E2B0
+  Client::UI::Addon_Auto_JobHudDNC1:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183E590
+  Client::UI::Addon_Auto_HudLayoutBg:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183E9F8
+  Client::UI::Addon_Auto_HudLayoutSetCopy:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183F048
+  Client::UI::Addon_Auto_HudLayoutCurrentWindow:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183F498
+  Client::UI::Addon_Auto_HudLayoutCurrentBuffStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183F6D0
+  Client::UI::Addon_Auto_HudLayoutCurrentTarget:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183F908
+  Client::UI::Addon_Auto_HudLayoutSnapSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14183FB40
+  Client::UI::Addon_Auto_TextHousingGardening:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418402A8
+  Client::UI::Addon_Auto_HousingSignBoard:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418404C0
+  Client::UI::Addon_Auto_HousingSelectDeed:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418406D8
+  Client::UI::Addon_Auto_HousingSelectBlock:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418408F0
+  Client::UI::Addon_Auto_HousingGardening:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141840B08
+  Client::UI::Addon_Auto_HousingGoods:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141840D40
+  Client::UI::Addon_Auto_HousingGoods:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141840F60
+  Client::UI::Addon_Auto_HousingLayout:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141841180
+  Client::UI::Addon_Auto_HousingEditMessage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141841398
+  Client::UI::Addon_Auto_HousingEditInterior:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418415B0
+  Client::UI::Addon_Auto_HousingEditExterior:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418417C8
+  Client::UI::Addon_Auto_HousingConfig:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418419E0
+  Client::UI::Addon_Auto_HousingPadGuide:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141841BF8
+  Client::UI::Addon_Auto_HousingTravellersNote:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141841E10
+  Client::UI::Addon_Auto_HousingSelectRoom:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842028
+  Client::UI::Addon_Auto_HousingSelectRoom:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843308
+  Client::UI::Addon_Auto_HousingChocoboList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842248
+  Client::UI::Addon_Auto_HousingWithdrawStorage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842460
+  Client::UI::Addon_Auto_HousingWheelStand:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842678
+  Client::UI::Addon_Auto_HousingConfigLight:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842890
+  Client::UI::Addon_Auto_HousingMate:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842AA8
+  Client::UI::Addon_Auto_HousingReleaseAuthority:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141842CC0
+  Client::UI::Addon_Auto_VaseSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418430F0
+  Client::UI::Addon_Auto_AquariumSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843528
+  Client::UI::Addon_Auto_AquariumFishList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843750
+  Client::UI::Addon_Auto_HousingWareHouseStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843970
+  Client::UI::Addon_Auto_HousingGuestBook:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843B88
+  Client::UI::Addon_Auto_HousingAppealSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843DA0
+  Client::UI::Addon_Auto_HousingFurnitureCatalog:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141843FD8
+  Client::UI::Addon_Auto_WorldTranslate:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141844220
+  Client::UI::Addon_Auto_WorldTranslateStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141844450
+  Client::UI::Addon_Auto_WorldTranslateConfirm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141844680
+  Client::UI::Addon_Auto_PunchingMachine:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141845540
+  Client::UI::Addon_Auto_PunchingMachine:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058CD4
+  Client::UI::Addon_Auto_BasketBall:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141845790
+  Client::UI::Addon_Auto_BasketBall:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058D10
+  Client::UI::Addon_Auto_Hammer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418459D0
+  Client::UI::Addon_Auto_Hammer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058D4C
+  Client::UI::Addon_Auto_MogCatcher:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141845C10
+  Client::UI::Addon_Auto_MogCatcher:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058D7C
+  Client::UI::Addon_Auto_BalloonMessage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141845E50
+  Client::UI::Addon_Auto_BalloonMessage:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058DDC
+  Client::UI::Addon_Auto_MinerGame:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418462B8
+  Client::UI::Addon_Auto_MinerGame:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058ECC
+  Client::UI::Addon_Auto_BotanistGame:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141846518
+  Client::UI::Addon_Auto_BotanistGame:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058EF0
+  Client::UI::Addon_Auto_MinerBotanistAim:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141846778
+  Client::UI::Addon_Auto_MinerBotanistAim:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142058F20
+  Client::UI::Addon_Auto_GsScreenText:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418469B8
+  Client::UI::Addon_Auto_TripleTriad:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141846BE8
+  Client::UI::Addon_Auto_TripleTriad:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1420591C0
+  Client::UI::Addon_Auto_TripleTriadApplication:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141846E00
+  Client::UI::Addon_Auto_TripleTriadResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847018
+  Client::UI::Addon_Auto_TripleTriadResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1420594FC
+  Client::UI::Addon_Auto_ShopCard:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847230
+  Client::UI::Addon_Auto_TripleTriadDeckSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847448
+  Client::UI::Addon_Auto_TripleTriadRanking:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847660
+  Client::UI::Addon_Auto_TripleTriadRule:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847878
+  Client::UI::Addon_Auto_TripleTriadTournamentSchedule:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847CA8
+  Client::UI::Addon_Auto_TripleTriadRuleAnnounce:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141847EC0
+  Client::UI::Addon_Auto_TripleTriadRuleSetting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418480D8
+  Client::UI::Addon_Auto_TripleTriadPickUpDeckSelect:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418482F0
+  Client::UI::Addon_Auto_TripleTriadDeckConfirmation:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848508
+  Client::UI::Addon_Auto_TripleTriadPlayerInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848720
+  Client::UI::Addon_Auto_TripleTriadRoundResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848938
+  Client::UI::Addon_Auto_TripleTriadTournamentResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848B50
+  Client::UI::Addon_Auto_TripleTriadTournamentReward:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848D68
+  Client::UI::Addon_Auto_TripleTriadTournamentPlayer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141848F80
+  Client::UI::Addon_Auto_TripleTriadTournamentReport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141849198
+  Client::UI::Addon_Auto_TripleTriadTournamentReport:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x142059F34
+  Client::UI::Addon_Auto_GoldSaucer:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418493B0
+  Client::UI::Addon_Auto_GoldSaucerGeneral:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418495C8
+  Client::UI::Addon_Auto_GoldSaucerRaceParameter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418497E0
+  Client::UI::Addon_Auto_GoldSaucerRacePedigree:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418499F8
+  Client::UI::Addon_Auto_GoldSaucerRaceAppearance:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141849C10
+  Client::UI::Addon_Auto_GoldSaucerCardList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141849E28
+  Client::UI::Addon_Auto_GoldSaucerCardDeck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184A040
+  Client::UI::Addon_Auto_GoldSaucerVerminion:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184A258
+  Client::UI::Addon_Auto_GoldSaucerEmj:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184A470
+  Client::UI::Addon_Auto_GoldSaucerCardDeckEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184A688
+  Client::UI::Addon_Auto_GoldSaucerCardFilter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184A8A0
+  Client::UI::Addon_Auto_LotteryWeekly:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184AAB8
+  Client::UI::Addon_Auto_LotteryWeeklyHistory:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184ACF0
+  Client::UI::Addon_Auto_LotteryWeeklyRewardList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184AF08
+  Client::UI::Addon_Auto_BreedCoupling:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184B120
+  Client::UI::Addon_Auto_BreedNaming:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184B338
+  Client::UI::Addon_Auto_BreedNameList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184B550
+  Client::UI::Addon_Auto_BreedTraining:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184B768
+  Client::UI::Addon_Auto_BreedTraining:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184B980
+  Client::UI::Addon_Auto_RaceChocoboStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184BDB0
+  Client::UI::Addon_Auto_RaceChocoboReady:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184C1E0
+  Client::UI::Addon_Auto_RaceChocoboConfirm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184C610
+  Client::UI::Addon_Auto_RaceChocoboResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184C828
+  Client::UI::Addon_Auto_RaceChocoboRanking:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184CA40
+  Client::UI::Addon_Auto_RaceChocoboItemBox:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184CC60
+  Client::UI::Addon_Auto_RaceChocoboParameter:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184CE78
+  Client::UI::Addon_Auto_ShopExchangeCoin:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184D2B8
+  Client::UI::Addon_Auto_LovmHeader:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184D4D0
+  Client::UI::Addon_Auto_LovmTargetInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184D710
+  Client::UI::Addon_Auto_LovmPalette:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184D940
+  Client::UI::Addon_Auto_LovmPartyList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184DB60
+  Client::UI::Addon_Auto_LovmQueueList:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184DD90
+  Client::UI::Addon_Auto_LovmTypeInfo:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184DFA8
+  Client::UI::Addon_Auto_LovmHelp:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184E1D0
+  Client::UI::Addon_Auto_LovmRanking:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184E408
+  Client::UI::Addon_Auto_LovmNamePlate:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184E620
+  Client::UI::Addon_Auto_LovmNamePlate:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205B9F8
+  Client::UI::Addon_Auto_LovmResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184E838
+  Client::UI::Addon_Auto_LovmResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205BB90
+  Client::UI::Addon_Auto_LovmMiniMap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184EA50
+  Client::UI::Addon_Auto_LovmMiniMap:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205BBC0
+  Client::UI::Addon_Auto_LovmPaletteEdit:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184EC68
+  Client::UI::Addon_Auto_LovmActionDetail:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184EE80
+  Client::UI::Addon_Auto_GoldSaucerReward:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184F0C8
+  Client::UI::Addon_Auto_GoldSaucerReward:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205BF14
+  Client::UI::Addon_Auto_LovmStatus:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184F4F8
+  Client::UI::Addon_Auto_LovmConfirm:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184F710
+  Client::UI::Addon_Auto_LovmReady:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184F928
+  Client::UI::Addon_Auto_FashionCheck:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184FB40
+  Client::UI::Addon_Auto_FashionCheckScoreGauge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184FD70
+  Client::UI::Addon_Auto_FashionCheckScoreGauge:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205C1A8
+  Client::UI::Addon_Auto_Emj:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14184FF88
+  Client::UI::Addon_Auto_Emj:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x14205C448
+  Client::UI::Addon_Auto_EmjRankResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418502A0
+  Client::UI::Addon_Auto_EmjRankPoint:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418504C8
+  Client::UI::Addon_Auto_EmjConfig:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418506F8
+  Client::UI::Addon_Auto_GateResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141850910
+  Client::UI::Addon_Auto_RideShootingBg:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141850B28
+  Client::UI::Addon_Auto_RideShootingFlyText:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141850D60
+  Client::UI::Addon_Auto_RideShooting:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x141850F80
+  Client::UI::Addon_Auto_RideShootingResult:
+    inherits_from: Component::GUI::AtkUnitBase
+    vtbl: 0x1418511E0
