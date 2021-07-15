@@ -17,6 +17,7 @@ namespace FFXIVClientStructs.FFXIV.Client.Game.Character
         [FieldOffset(0x1878)] public Companion* CompanionObject; // minion
         [FieldOffset(0x1898)] public fixed byte CustomizeData[0x1A];
         [FieldOffset(0x1950)] public uint CompanionOwnerID;
+        [FieldOffset(0x195E)] public ushort HomeWorld;
         [FieldOffset(0x19A0)] public byte StatusFlags;
     }
 }

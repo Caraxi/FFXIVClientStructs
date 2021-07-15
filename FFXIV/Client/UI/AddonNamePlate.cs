@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices;
+using FFXIVClientStructs.Attributes;
 using FFXIVClientStructs.FFXIV.Component.GUI;
 
 namespace FFXIVClientStructs.FFXIV.Client.UI
@@ -18,6 +19,7 @@ namespace FFXIVClientStructs.FFXIV.Client.UI
     //   Component::GUI::AtkUnitBase
     //     Component::GUI::AtkEventListener
     [StructLayout(LayoutKind.Explicit, Size = 0x470)]
+    [Addon("NamePlate")]
     public unsafe struct AddonNamePlate
     {
         [FieldOffset(0x0)] public AtkUnitBase AtkUnitBase;
