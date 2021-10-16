@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Text;
 using FFXIVClientStructs.Attributes;
 using FFXIVClientStructs.FFXIV.Component.GUI.ULD;
 
@@ -73,5 +74,55 @@ namespace FFXIVClientStructs.FFXIV.Component.GUI
 
         [VirtualFunction(46)]
         public partial void OnUpdate(NumberArrayData** numberArrayData, StringArrayData** stringArrayData);
+
+        public void FireCallback(params object[] values) {
+            var atkValues = (AtkValue*) Marshal.AllocHGlobal(values.Length * sizeof(AtkValue));
+            if (atkValues == null) return;
+            try {
+                for (var i = 0; i < values.Length; i++) {
+                    var v = values[i];
+                    switch (v) {
+                        case uint uintValue:
+                            atkValues[i].Type = ValueType.UInt;
+                            atkValues[i].UInt = uintValue;
+                            break;
+                        case int intValue:
+                            atkValues[i].Type = ValueType.Int;
+                            atkValues[i].Int = intValue;
+                            break;
+                        case float floatValue:
+                            atkValues[i].Type = ValueType.Float;
+                            atkValues[i].Float = floatValue;
+                            break;
+                        case bool boolValue:
+                            atkValues[i].Type = ValueType.Bool;
+                            atkValues[i].Byte = (byte) (boolValue ? 1 : 0);
+                            break;
+                        case string stringValue: {
+                            atkValues[i].Type = ValueType.String;
+                            var stringBytes = Encoding.UTF8.GetBytes(stringValue);
+                            var stringAlloc = Marshal.AllocHGlobal(stringBytes.Length + 1);
+                            Marshal.Copy(stringBytes, 0, stringAlloc, stringBytes.Length);
+                            Marshal.WriteByte(stringAlloc, stringBytes.Length, 0);
+                            atkValues[i].String = (byte*)stringAlloc;
+                            break;
+                        }
+                        default:
+                            throw new ArgumentException($"Unable to convert type {v.GetType()} to AtkValue");
+                    }
+                }
+
+                FireCallback(values.Length, atkValues);
+            } finally {
+                if (atkValues != null) {
+                    for (var i = 0; i < values.Length; i++) {
+                        if (atkValues[i].Type == ValueType.String) {
+                            Marshal.FreeHGlobal(new IntPtr(atkValues[i].String));
+                        }
+                    }
+                    Marshal.FreeHGlobal(new IntPtr(atkValues));
+                }
+            }
+        }
     }
 }
